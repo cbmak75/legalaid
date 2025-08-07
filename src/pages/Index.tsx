@@ -66,14 +66,11 @@ const Index = () => {
               </div>
             </div>
             <div className="justify-self-center w-full">
-              <div className="w-full p-6 md:p-10 bg-brand-dark">
-                <img
-                  src="/lovable-uploads/4be43dfe-c9fa-4767-93be-f0925780e6b1.png"
-                  alt="Legalaid brand logo"
-                  className="w-full h-auto"
-                  loading="lazy"
-                />
-              </div>
+              <div
+                className="w-full aspect-[3/2] md:aspect-[4/3] logo-cutout"
+                role="img"
+                aria-label="Legalaid logo cutout revealing background"
+              />
             </div>
           </div>
         </section>

@@ -124,4 +124,22 @@ All colors MUST be HSL.
   .bg-hero { background: var(--gradient-hero); }
   .shadow-glow { box-shadow: var(--shadow-glow); }
   .bg-brand-dark { background-color: hsl(var(--brand-dark)); }
+
+  /* Cutout overlay that punches the logo shape out of a subtle pane */
+  .logo-cutout { position: relative; }
+  .logo-cutout::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: hsl(var(--brand-dark) / 0.6);
+    -webkit-mask:
+      linear-gradient(#fff 0 0),
+      url("/lovable-uploads/4be43dfe-c9fa-4767-93be-f0925780e6b1.png") center/70% no-repeat;
+    -webkit-mask-composite: xor;
+    mask:
+      linear-gradient(#fff 0 0),
+      url("/lovable-uploads/4be43dfe-c9fa-4767-93be-f0925780e6b1.png") center/70% no-repeat;
+    mask-composite: exclude;
+    pointer-events: none;
+  }
 }
