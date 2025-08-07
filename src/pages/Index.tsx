@@ -159,10 +159,10 @@ const Index = () => {
             className="h-16 w-auto"
             loading="lazy"
           />
-          <p className="text-sm text-muted-foreground">© {new Date().getFullYear()} Legal Artificial Intelligence Development Ltd</p>
+          <p className="text-sm text-brand-contrast">© {new Date().getFullYear()} Legal Artificial Intelligence Development Ltd</p>
           <div className="flex gap-4">
-            <a className="text-sm text-muted-foreground hover:text-foreground" href="#about">About</a>
-            <a className="text-sm text-muted-foreground hover:text-foreground" href="https://ukinnovator.online" target="_blank" rel="noreferrer">ukinnovator.online</a>
+            <a className="text-sm text-brand-contrast hover:text-brand-contrast" href="#about">About</a>
+            <a className="text-sm text-brand-contrast hover:text-brand-contrast" href="https://ukinnovator.online" target="_blank" rel="noreferrer">ukinnovator.online</a>
           </div>
         </div>
       </footer>
