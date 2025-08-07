@@ -52,7 +52,7 @@ All colors MUST be HSL.
     --brand: 204 94% 55%;
     --brand-2: 36 100% 59%;
     --brand-3: 318 84% 62%;
-    --brand-dark: 0 0% 6%;
+    --brand-dark: 0 0% 0%;
     --brand-contrast: 210 40% 98%;
 
     /* Gradients, shadows, motion */
@@ -123,4 +123,5 @@ All colors MUST be HSL.
 @layer utilities {
   .bg-hero { background: var(--gradient-hero); }
   .shadow-glow { box-shadow: var(--shadow-glow); }
+  .bg-brand-dark { background-color: hsl(var(--brand-dark)); }
 }

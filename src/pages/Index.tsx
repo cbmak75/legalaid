@@ -65,13 +65,15 @@ const Index = () => {
                 </Button>
               </div>
             </div>
-            <div className="justify-self-center">
-              <img
-                src="/lovable-uploads/4be43dfe-c9fa-4767-93be-f0925780e6b1.png"
-                alt="Legalaid brand logo"
-                className="max-w-lg w-full rounded-lg shadow-glow"
-                loading="lazy"
-              />
+            <div className="justify-self-center w-full">
+              <div className="w-full p-6 md:p-10 bg-brand-dark">
+                <img
+                  src="/lovable-uploads/4be43dfe-c9fa-4767-93be-f0925780e6b1.png"
+                  alt="Legalaid brand logo"
+                  className="w-full h-auto"
+                  loading="lazy"
+                />
+              </div>
             </div>
           </div>
         </section>
