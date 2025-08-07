@@ -46,7 +46,7 @@ const Index = () => {
         </nav>
       </header>
 
-      <main id="hero" ref={heroRef} onMouseMove={handleMouseMove} className="hero-split text-primary-foreground">
+      <main id="hero" ref={heroRef} onMouseMove={handleMouseMove} className="bg-hero text-primary-foreground">
         <section className="container py-24 md:py-32">
           <div className="grid md:grid-cols-2 items-center gap-10">
             <div>

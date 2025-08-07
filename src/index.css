@@ -125,15 +125,3 @@ All colors MUST be HSL.
   .shadow-glow { box-shadow: var(--shadow-glow); }
   .bg-brand-dark { background-color: hsl(var(--brand-dark)); }
 }
-
-@layer components {
-  .hero-split { position: relative; background-color: hsl(var(--brand-dark)); }
-  .hero-split::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    right: 40%;
-    background: var(--gradient-hero);
-    pointer-events: none;
-  }
-}
