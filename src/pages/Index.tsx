@@ -67,9 +67,9 @@ const Index = () => {
             </div>
             <div className="justify-self-center">
               <img
-                src="/lovable-uploads/13cc4723-2211-4966-996f-d5b01b9b16cb.png"
-                alt="Founder portrait used in Legalaid branding"
-                className="max-w-md w-full rounded-lg border border-border shadow-glow"
+                src="/lovable-uploads/4be43dfe-c9fa-4767-93be-f0925780e6b1.png"
+                alt="Legalaid brand logo"
+                className="max-w-lg w-full rounded-lg shadow-glow"
                 loading="lazy"
               />
             </div>
@@ -137,6 +137,12 @@ const Index = () => {
             </div>
           </article>
           <aside className="space-y-6">
+            <img
+              src="/lovable-uploads/13cc4723-2211-4966-996f-d5b01b9b16cb.png"
+              alt="Founder portrait"
+              className="w-full rounded-lg border border-border shadow-glow"
+              loading="lazy"
+            />
             <div className="p-6 rounded-lg border border-border shadow-sm">
               <h4 className="font-semibold">Press & enquiries</h4>
               <p className="text-muted-foreground mt-2">For more information contact:</p>
