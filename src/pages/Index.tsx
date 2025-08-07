@@ -21,7 +21,7 @@ const Index = () => {
     <div className="min-h-screen flex flex-col bg-background">
       <header className="w-full bg-bar text-primary-foreground">
         <nav className="container flex items-center justify-between py-6 text-brand-contrast">
-          <a href="#hero" className="flex items-center gap-3" aria-label="Legalaid home">
+          <a href="#hero" className="hidden md:flex items-center gap-3" aria-label="Legalaid home">
             <img
               src="/lovable-uploads/4e1c48b3-aec9-4b02-afd1-746aeb3caeea.png"
               alt="Legalaid logo - Legal Artificial Intelligence Development"
