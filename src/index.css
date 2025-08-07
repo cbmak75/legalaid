@@ -7,7 +7,7 @@ All colors MUST be HSL.
 */
 
 @layer base {
-  :root {
+:root {
     --background: 0 0% 100%;
     --foreground: 222.2 84% 4.9%;
 
@@ -17,7 +17,8 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 222.2 47.4% 11.2%;
+    /* Brand palette */
+    --primary: 204 94% 55%; /* Legalaid blue */
     --primary-foreground: 210 40% 98%;
 
     --secondary: 210 40% 96.1%;
@@ -39,20 +40,26 @@ All colors MUST be HSL.
     --radius: 0.5rem;
 
     --sidebar-background: 0 0% 98%;
-
     --sidebar-foreground: 240 5.3% 26.1%;
-
     --sidebar-primary: 240 5.9% 10%;
-
     --sidebar-primary-foreground: 0 0% 98%;
-
     --sidebar-accent: 240 4.8% 95.9%;
-
     --sidebar-accent-foreground: 240 5.9% 10%;
-
     --sidebar-border: 220 13% 91%;
-
     --sidebar-ring: 217.2 91.2% 59.8%;
+
+    /* Extended brand tokens */
+    --brand: 204 94% 55%;
+    --brand-2: 36 100% 59%;
+    --brand-3: 318 84% 62%;
+    --brand-dark: 0 0% 6%;
+    --brand-contrast: 210 40% 98%;
+
+    /* Gradients, shadows, motion */
+    --gradient-hero: radial-gradient(1200px circle at var(--mouse-x,50%) var(--mouse-y,40%), hsl(var(--brand)/0.20), transparent 60%), linear-gradient(180deg, hsl(var(--brand-dark)), hsl(222 28% 10%));
+    --shadow-elegant: 0 10px 30px -10px hsl(var(--brand)/0.35);
+    --shadow-glow: 0 0 40px hsl(var(--brand)/0.45);
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .dark {
@@ -65,7 +72,7 @@ All colors MUST be HSL.
     --popover: 222.2 84% 4.9%;
     --popover-foreground: 210 40% 98%;
 
-    --primary: 210 40% 98%;
+    --primary: 204 94% 55%;
     --primary-foreground: 222.2 47.4% 11.2%;
 
     --secondary: 217.2 32.6% 17.5%;
@@ -91,6 +98,15 @@ All colors MUST be HSL.
     --sidebar-accent-foreground: 240 4.8% 95.9%;
     --sidebar-border: 240 3.7% 15.9%;
     --sidebar-ring: 217.2 91.2% 59.8%;
+
+    /* Mirror extended tokens for dark */
+    --brand: 204 94% 55%;
+    --brand-2: 36 100% 59%;
+    --brand-3: 318 84% 62%;
+    --brand-dark: 0 0% 0%;
+    --brand-contrast: 210 40% 98%;
+
+    --gradient-hero: radial-gradient(1200px circle at var(--mouse-x,50%) var(--mouse-y,40%), hsl(var(--brand)/0.25), transparent 60%), linear-gradient(180deg, hsl(var(--brand-dark)), hsl(222 28% 10%));
   }
 }
 
@@ -102,4 +118,9 @@ All colors MUST be HSL.
   body {
     @apply bg-background text-foreground;
   }
+}
+
+@layer utilities {
+  .bg-hero { background: var(--gradient-hero); }
+  .shadow-glow { box-shadow: var(--shadow-glow); }
 }
