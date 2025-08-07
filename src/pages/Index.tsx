@@ -19,13 +19,13 @@ const Index = () => {
 
   return (
     <div className="min-h-screen flex flex-col bg-background">
-      <header className="w-full">
+      <header className="w-full bg-bar text-primary-foreground">
         <nav className="container flex items-center justify-between py-6">
           <a href="#hero" className="flex items-center gap-3" aria-label="Legalaid home">
             <img
-              src="/lovable-uploads/4be43dfe-c9fa-4767-93be-f0925780e6b1.png"
+              src="/lovable-uploads/4e1c48b3-aec9-4b02-afd1-746aeb3caeea.png"
               alt="Legalaid logo - Legal Artificial Intelligence Development"
-              className="h-8 w-auto"
+              className="h-10 w-auto"
               loading="eager"
             />
           </a>
@@ -38,9 +38,6 @@ const Index = () => {
             </Button>
             <Button asChild variant="link">
               <a href="#contact">Contact</a>
-            </Button>
-            <Button asChild variant="hero">
-              <a href="https://ukinnovator.online" target="_blank" rel="noreferrer">Try the tool</a>
             </Button>
           </div>
         </nav>
@@ -154,12 +151,12 @@ const Index = () => {
         </div>
       </section>
 
-      <footer className="border-t border-border">
+      <footer className="border-t border-border bg-bar text-primary-foreground">
         <div className="container py-10 flex flex-col md:flex-row items-center justify-between gap-4">
           <img
-            src="/lovable-uploads/4be43dfe-c9fa-4767-93be-f0925780e6b1.png"
+            src="/lovable-uploads/4e1c48b3-aec9-4b02-afd1-746aeb3caeea.png"
             alt="Legalaid logo"
-            className="h-6 w-auto"
+            className="h-8 w-auto"
             loading="lazy"
           />
           <p className="text-sm text-muted-foreground">© {new Date().getFullYear()} Legal Artificial Intelligence Development Ltd</p>

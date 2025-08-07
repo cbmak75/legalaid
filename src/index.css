@@ -55,6 +55,9 @@ All colors MUST be HSL.
     --brand-dark: 0 0% 0%;
     --brand-contrast: 210 40% 98%;
 
+    /* Surface tokens */
+    --bar: 0 0% 32%; /* #525252 */
+
     /* Gradients, shadows, motion */
     --gradient-hero: radial-gradient(1200px circle at var(--mouse-x,50%) var(--mouse-y,40%), hsl(var(--brand)/0.20), transparent 60%), linear-gradient(180deg, hsl(var(--brand-dark)), hsl(222 28% 10%));
     --shadow-elegant: 0 10px 30px -10px hsl(var(--brand)/0.35);
@@ -105,6 +108,9 @@ All colors MUST be HSL.
     --brand-3: 318 84% 62%;
     --brand-dark: 0 0% 0%;
     --brand-contrast: 210 40% 98%;
+
+    /* Surface tokens */
+    --bar: 0 0% 32%; /* #525252 */
 
     --gradient-hero: radial-gradient(1200px circle at var(--mouse-x,50%) var(--mouse-y,40%), hsl(var(--brand)/0.25), transparent 60%), linear-gradient(180deg, hsl(var(--brand-dark)), hsl(222 28% 10%));
   }
