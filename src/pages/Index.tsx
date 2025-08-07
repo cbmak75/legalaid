@@ -66,14 +66,14 @@ const Index = () => {
               </div>
             </div>
             <div className="justify-self-center w-full">
-              <div className="w-full p-6 md:p-10 bg-brand-dark">
+              <figure className="w-full">
                 <img
-                  src="/lovable-uploads/4e1c48b3-aec9-4b02-afd1-746aeb3caeea.png?v=2"
-                  alt="Legalaid brand logo"
-                  className="w-full h-auto mix-blend-screen"
+                  src="/lovable-uploads/4e1c48b3-aec9-4b02-afd1-746aeb3caeea.png"
+                  alt="Legalaid transparent logo"
+                  className="w-full h-auto"
                   loading="lazy"
                 />
-              </div>
+              </figure>
             </div>
           </div>
         </section>
