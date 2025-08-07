@@ -25,11 +25,11 @@ const Index = () => {
             <img
               src="/lovable-uploads/4e1c48b3-aec9-4b02-afd1-746aeb3caeea.png"
               alt="Legalaid logo - Legal Artificial Intelligence Development"
-              className="h-20 w-auto"
+              className="h-12 md:h-16 w-auto"
               loading="eager"
             />
           </a>
-          <div className="flex items-center gap-3">
+          <div className="flex flex-wrap items-center gap-2 md:gap-3">
             <Button asChild variant="link" className="text-brand-contrast hover:text-brand-contrast">
               <a href="#about">About</a>
             </Button>
@@ -67,8 +67,9 @@ const Index = () => {
                 <img
                   src="/lovable-uploads/4e1c48b3-aec9-4b02-afd1-746aeb3caeea.png"
                   alt="Legalaid transparent logo"
-                  className="w-full h-auto"
+                  className="w-full h-auto max-w-[280px] sm:max-w-xs md:max-w-md lg:max-w-lg object-contain mx-auto"
                   loading="lazy"
+                  sizes="(min-width: 1024px) 640px, (min-width: 768px) 480px, 280px"
                 />
               </figure>
             </div>
@@ -85,11 +86,12 @@ const Index = () => {
         </article>
         <div className="mt-10 grid md:grid-cols-2 gap-8 items-center">
           <img
-            src="/lovable-uploads/7cbd0e22-9d9d-45f9-a815-6631a1d2713e.png"
-            alt="Legalaid beta launch poster for ukinnovator.online"
-            className="w-full rounded-lg border border-border"
-            loading="lazy"
-          />
+             src="/lovable-uploads/7cbd0e22-9d9d-45f9-a815-6631a1d2713e.png"
+             alt="Legalaid beta launch poster for ukinnovator.online"
+             className="w-full max-w-md md:max-w-none rounded-lg border border-border mx-auto md:mx-0 object-contain"
+             loading="lazy"
+             sizes="(min-width: 768px) 640px, 320px"
+           />
           <div>
             <div className="space-y-4 text-base text-muted-foreground">
               <p>
@@ -138,11 +140,12 @@ const Index = () => {
           </article>
           <aside className="space-y-6">
             <img
-              src="/lovable-uploads/13cc4723-2211-4966-996f-d5b01b9b16cb.png"
-              alt="Founder portrait"
-              className="w-full rounded-lg border border-border shadow-glow"
-              loading="lazy"
-            />
+               src="/lovable-uploads/13cc4723-2211-4966-996f-d5b01b9b16cb.png"
+               alt="Founder portrait"
+               className="w-full max-w-xs sm:max-w-sm md:max-w-full rounded-lg border border-border shadow-glow mx-auto md:mx-0 object-cover"
+               loading="lazy"
+               sizes="(min-width: 768px) 400px, 280px"
+             />
             <div className="p-6 rounded-lg border border-border shadow-sm">
               <h4 className="font-semibold">Press & enquiries</h4>
               <p className="text-muted-foreground mt-2">For more information contact:</p>
@@ -179,7 +182,7 @@ const Index = () => {
           <img
             src="/lovable-uploads/4e1c48b3-aec9-4b02-afd1-746aeb3caeea.png"
             alt="Legalaid logo"
-            className="h-16 w-auto"
+            className="h-10 md:h-16 w-auto"
             loading="lazy"
           />
           <p className="text-sm text-brand-contrast">© {new Date().getFullYear()} Legal Artificial Intelligence Development Ltd</p>
