@@ -46,7 +46,7 @@ const Index = () => {
         </nav>
       </header>
 
-      <main id="hero" ref={heroRef} onMouseMove={handleMouseMove} className="bg-hero text-primary-foreground">
+      <main id="hero" ref={heroRef} onMouseMove={handleMouseMove} className="hero-split text-primary-foreground">
         <section className="container py-24 md:py-32">
           <div className="grid md:grid-cols-2 items-center gap-10">
             <div>
@@ -66,11 +66,14 @@ const Index = () => {
               </div>
             </div>
             <div className="justify-self-center w-full">
-              <div
-                className="w-full aspect-[3/2] md:aspect-[4/3] logo-cutout"
-                role="img"
-                aria-label="Legalaid logo cutout revealing background"
-              />
+              <div className="w-full p-6 md:p-10 bg-brand-dark">
+                <img
+                  src="/lovable-uploads/4be43dfe-c9fa-4767-93be-f0925780e6b1.png"
+                  alt="Legalaid brand logo"
+                  className="w-full h-auto"
+                  loading="lazy"
+                />
+              </div>
             </div>
           </div>
         </section>
