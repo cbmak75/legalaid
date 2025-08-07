@@ -46,14 +46,14 @@ const Index = () => {
       <main id="hero" ref={heroRef} onMouseMove={handleMouseMove} className="bg-hero text-primary-foreground">
         <section className="container py-24 md:py-32">
           <div className="grid md:grid-cols-2 items-center gap-10">
-            <div>
+            <div className="text-center md:text-left">
               <h1 className="text-4xl md:text-6xl font-extrabold leading-tight">
                 A new way for lawyers to build with AI
               </h1>
               <p className="mt-4 text-lg text-muted-foreground/90">
                 Legal Artificial Intelligence Development (Legalaid) creates simple, pragmatic AI tools for legal practitioners.
               </p>
-              <div className="mt-8 flex flex-wrap gap-3">
+              <div className="mt-8 flex flex-wrap gap-3 justify-center md:justify-start">
                 <Button asChild size="lg" variant="hero">
                   <a href="https://ukinnovator.online" target="_blank" rel="noreferrer">Explore ukinnovator.online</a>
                 </Button>
@@ -78,7 +78,7 @@ const Index = () => {
       </main>
 
       <section id="launch" className="container py-20">
-        <article className="max-w-3xl">
+        <article className="max-w-3xl mx-auto text-center md:text-left">
           <h2 className="text-3xl md:text-4xl font-bold">Beta launch: ukinnovator.online</h2>
           <p className="mt-4 text-muted-foreground">
             Legalaid has launched its inaugural beta of ukinnovator.online — a free, AI-powered pre-assessment tool helping potential Innovator Founders gauge the strength of their business ideas for the UK scheme. It offers a quick 5-minute assessment and a more in-depth 20-minute option.
@@ -92,7 +92,7 @@ const Index = () => {
              loading="lazy"
              sizes="(min-width: 768px) 640px, 320px"
            />
-          <div>
+          <div className="text-center md:text-left">
             <div className="space-y-4 text-base text-muted-foreground">
               <p>
                 The tool uses a unique algorithm to harness AI's analytical power, pre-assessing business ideas for innovation, scalability, and viability. It is intended as a step before seeing a lawyer and does not replace legal advice.
@@ -101,7 +101,7 @@ const Index = () => {
                 We believe AI should be free to use for end users. This launch demonstrates how practitioners can craft targeted tools that help clients and advance legal practice.
               </p>
             </div>
-            <div className="mt-8">
+            <div className="mt-8 flex justify-center md:justify-start">
               <Button asChild size="lg">
                 <a href="https://ukinnovator.online" target="_blank" rel="noreferrer">Use ukinnovator.online</a>
               </Button>
@@ -114,7 +114,7 @@ const Index = () => {
         <div className="container grid md:grid-cols-3 gap-10 items-start">
           <article className="md:col-span-2">
             <h2 className="text-3xl md:text-4xl font-bold">About Legalaid</h2>
-            <div className="mt-4 space-y-4 text-muted-foreground">
+            <div className="mt-4 space-y-4 text-muted-foreground text-center md:text-left">
               <p>
                 Lawyery founding solicitor, Chris Dias, has started a new venture aimed at changing the way lawyers use AI. The company, Legal Artificial Intelligence Development (Legalaid) Ltd, was formed to bring simple, AI powered tools to the legal sphere.
               </p>
@@ -124,8 +124,8 @@ const Index = () => {
               
             </div>
 
-            <h3 className="mt-10 text-2xl font-semibold">Founder bio</h3>
-            <div className="mt-3 space-y-4 text-muted-foreground">
+            <h3 className="mt-10 text-2xl font-semibold text-center md:text-left">Founder bio</h3>
+            <div className="mt-3 space-y-4 text-muted-foreground text-center md:text-left">
               <p>
                 Chris qualified in 2001 and has worked as an expert immigration lawyer for many firms including Horsfield Menzies, Dias Solicitors, ALT Legal, Gunnercooke and Halebury. He is currently Director of Lawyery.co with offices in Holborn. He teaches the Level 2 Advanced Immigration Law course for Free Movement.
               </p>
