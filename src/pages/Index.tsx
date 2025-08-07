@@ -113,7 +113,7 @@ const Index = () => {
       <section id="about" className="bg-card py-20">
         <div className="container grid md:grid-cols-3 gap-10 items-start">
           <article className="md:col-span-2">
-            <h2 className="text-3xl md:text-4xl font-bold">About Legalaid</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-center md:text-left">About Legalaid</h2>
             <div className="mt-4 space-y-4 text-muted-foreground text-center md:text-left">
               <p>
                 Lawyery founding solicitor, Chris Dias, has started a new venture aimed at changing the way lawyers use AI. The company, Legal Artificial Intelligence Development (Legalaid) Ltd, was formed to bring simple, AI powered tools to the legal sphere.
