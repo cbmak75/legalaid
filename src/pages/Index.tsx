@@ -70,7 +70,7 @@ const Index = () => {
                 <img
                   src="/lovable-uploads/4e1c48b3-aec9-4b02-afd1-746aeb3caeea.png?v=2"
                   alt="Legalaid brand logo"
-                  className="w-full h-auto"
+                  className="w-full h-auto mix-blend-screen"
                   loading="lazy"
                 />
               </div>
