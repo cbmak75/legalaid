@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react";
 import { Button } from "@/components/ui/button";
+import LogoCutout from "@/components/LogoCutout";
 
 const Index = () => {
   const heroRef = useRef<HTMLDivElement | null>(null);
@@ -22,7 +23,7 @@ const Index = () => {
       <header className="w-full">
         <nav className="container flex items-center justify-between py-6">
           <a href="#hero" className="flex items-center gap-3" aria-label="Legalaid home">
-            <img
+            <LogoCutout
               src="/lovable-uploads/4be43dfe-c9fa-4767-93be-f0925780e6b1.png"
               alt="Legalaid logo - Legal Artificial Intelligence Development"
               className="h-8 w-auto"
@@ -67,7 +68,7 @@ const Index = () => {
             </div>
             <div className="justify-self-center w-full">
               <div className="w-full p-6 md:p-10 bg-brand-dark">
-                <img
+                <LogoCutout
                   src="/lovable-uploads/4be43dfe-c9fa-4767-93be-f0925780e6b1.png"
                   alt="Legalaid brand logo"
                   className="w-full h-auto"
@@ -156,7 +157,7 @@ const Index = () => {
 
       <footer className="border-t border-border">
         <div className="container py-10 flex flex-col md:flex-row items-center justify-between gap-4">
-          <img
+          <LogoCutout
             src="/lovable-uploads/4be43dfe-c9fa-4767-93be-f0925780e6b1.png"
             alt="Legalaid logo"
             className="h-6 w-auto"
