@@ -68,7 +68,7 @@ const Index = () => {
             <div className="justify-self-center w-full">
               <div className="w-full p-6 md:p-10 bg-brand-dark">
                 <img
-                  src="/lovable-uploads/4e1c48b3-aec9-4b02-afd1-746aeb3caeea.png"
+                  src="/lovable-uploads/4e1c48b3-aec9-4b02-afd1-746aeb3caeea.png?v=2"
                   alt="Legalaid brand logo"
                   className="w-full h-auto"
                   loading="lazy"
