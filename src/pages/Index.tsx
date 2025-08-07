@@ -57,7 +57,7 @@ const Index = () => {
                 <Button asChild size="lg" variant="hero">
                   <a href="https://ukinnovator.online" target="_blank" rel="noreferrer">Explore ukinnovator.online</a>
                 </Button>
-                <Button asChild size="lg" variant="outline">
+                <Button asChild size="lg" variant="outline" className="text-foreground hover:text-foreground">
                   <a href="#about">Learn more</a>
                 </Button>
               </div>
@@ -146,6 +146,28 @@ const Index = () => {
               <h4 className="font-semibold">Press & enquiries</h4>
               <p className="text-muted-foreground mt-2">For more information contact:</p>
               <a id="contact" href="mailto:chris.dias@lawyery.co" className="text-primary underline underline-offset-4">chris.dias@lawyery.co</a>
+              <div className="mt-4 flex items-center gap-4">
+                <a
+                  href="https://www.linkedin.com/in/chrisdias/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="inline-flex items-center gap-2 text-primary hover:underline"
+                  aria-label="Chris Dias on LinkedIn"
+                >
+                  <svg className="h-5 w-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.036-1.851-3.036-1.853 0-2.136 1.447-2.136 2.943v5.662H9.353V9h3.414v1.561h.049c.476-.9 1.637-1.851 3.37-1.851 3.604 0 4.268 2.372 4.268 5.455v6.287zM5.337 7.433a2.062 2.062 0 1 1 0-4.124 2.062 2.062 0 0 1 0 4.124zM7.114 20.452H3.56V9h3.554v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.226.792 24 1.771 24h20.451C23.2 24 24 23.226 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                  </svg>
+                  LinkedIn
+                </a>
+                <a
+                  href="https://www.lawyery.co/chris-dias"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="inline-flex items-center gap-2 text-primary hover:underline"
+                >
+                  Lawyery profile
+                </a>
+              </div>
             </div>
           </aside>
         </div>
