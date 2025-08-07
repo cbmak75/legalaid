@@ -119,7 +119,7 @@ const Index = () => {
               <p>
                 Legalaid has launched it’s inaugural beta version of ukinnovator.online, which utilises a unique algorithm to harness the analytical power of AI to pre-assess the business ideas of potential Innovators who want to launch in the UK. The site focusses on pre-assessment and is not intended to replace legal advice, but to show the potential of how lawyers can use AI to develop legal concepts to help clients.
               </p>
-              <p className="italic">— Chris Dias, Solicitor</p>
+              
             </div>
 
             <h3 className="mt-10 text-2xl font-semibold">Founder bio</h3>
@@ -133,6 +133,7 @@ const Index = () => {
               <p>
                 “I have been getting more and more enquiries from potential Innovators who were completely confused about whether their business idea would be acceptable for the UK’s Innovator Founder scheme, and so I thought that there must be some way to pre-assess these ideas before the Endorsement application which costs the applicant £1000. I intended this site as a step before seeing a lawyer, to give Innovators an idea of what is important to the assessment process before they need to spend any money. The site is free to use and offers two options to the user; a quick 5 minute assessment and a more in-depth 20 minute assessment. I believe it is essential for AI to be free to use for the end user, and I think this is increasingly the expectation.”
               </p>
+              <p className="italic mt-4">— Chris Dias, Solicitor</p>
             </div>
           </article>
           <aside className="space-y-6">
