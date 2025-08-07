@@ -23,7 +23,7 @@ const Index = () => {
         <nav className="container flex items-center justify-between py-6">
           <a href="#hero" className="flex items-center gap-3" aria-label="Legalaid home">
             <img
-              src="/lovable-uploads/4be43dfe-c9fa-4767-93be-f0925780e6b1.png"
+              src="/lovable-uploads/a0cd1dc2-0d34-4afa-adc7-95b628750bf9.png"
               alt="Legalaid logo - Legal Artificial Intelligence Development"
               className="h-8 w-auto"
               loading="eager"
@@ -68,7 +68,7 @@ const Index = () => {
             <div className="justify-self-center w-full">
               <div className="w-full p-6 md:p-10 bg-brand-dark">
                 <img
-                  src="/lovable-uploads/4be43dfe-c9fa-4767-93be-f0925780e6b1.png"
+                  src="/lovable-uploads/a0cd1dc2-0d34-4afa-adc7-95b628750bf9.png"
                   alt="Legalaid brand logo"
                   className="w-full h-auto"
                   loading="lazy"
@@ -157,7 +157,7 @@ const Index = () => {
       <footer className="border-t border-border">
         <div className="container py-10 flex flex-col md:flex-row items-center justify-between gap-4">
           <img
-            src="/lovable-uploads/4be43dfe-c9fa-4767-93be-f0925780e6b1.png"
+            src="/lovable-uploads/a0cd1dc2-0d34-4afa-adc7-95b628750bf9.png"
             alt="Legalaid logo"
             className="h-6 w-auto"
             loading="lazy"
@@ -179,7 +179,7 @@ const Index = () => {
             "@type": "Organization",
             name: "Legal Artificial Intelligence Development (Legalaid) Ltd",
             url: "https://legalaid.dev",
-            logo: "https://legalaid.dev/lovable-uploads/4be43dfe-c9fa-4767-93be-f0925780e6b1.png",
+            logo: "https://legalaid.dev/lovable-uploads/a0cd1dc2-0d34-4afa-adc7-95b628750bf9.png",
             sameAs: ["https://ukinnovator.online"],
           }),
         }}
