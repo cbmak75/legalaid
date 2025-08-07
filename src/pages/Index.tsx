@@ -20,23 +20,23 @@ const Index = () => {
   return (
     <div className="min-h-screen flex flex-col bg-background">
       <header className="w-full bg-bar text-primary-foreground">
-        <nav className="container flex items-center justify-between py-6">
+        <nav className="container flex items-center justify-between py-6 text-brand-contrast">
           <a href="#hero" className="flex items-center gap-3" aria-label="Legalaid home">
             <img
               src="/lovable-uploads/4e1c48b3-aec9-4b02-afd1-746aeb3caeea.png"
               alt="Legalaid logo - Legal Artificial Intelligence Development"
-              className="h-10 w-auto"
+              className="h-20 w-auto"
               loading="eager"
             />
           </a>
           <div className="flex items-center gap-3">
-            <Button asChild variant="link">
+            <Button asChild variant="link" className="text-brand-contrast hover:text-brand-contrast">
               <a href="#about">About</a>
             </Button>
-            <Button asChild variant="link">
+            <Button asChild variant="link" className="text-brand-contrast hover:text-brand-contrast">
               <a href="#launch">Launch</a>
             </Button>
-            <Button asChild variant="link">
+            <Button asChild variant="link" className="text-brand-contrast hover:text-brand-contrast">
               <a href="#contact">Contact</a>
             </Button>
           </div>
@@ -152,11 +152,11 @@ const Index = () => {
       </section>
 
       <footer className="border-t border-border bg-bar text-primary-foreground">
-        <div className="container py-10 flex flex-col md:flex-row items-center justify-between gap-4">
+        <div className="container py-10 flex flex-col md:flex-row items-center justify-between gap-4 text-brand-contrast">
           <img
             src="/lovable-uploads/4e1c48b3-aec9-4b02-afd1-746aeb3caeea.png"
             alt="Legalaid logo"
-            className="h-8 w-auto"
+            className="h-16 w-auto"
             loading="lazy"
           />
           <p className="text-sm text-muted-foreground">© {new Date().getFullYear()} Legal Artificial Intelligence Development Ltd</p>
