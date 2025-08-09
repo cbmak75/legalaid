@@ -48,7 +48,7 @@ const Index = () => {
           <div className="grid md:grid-cols-2 items-center gap-10">
             <div className="text-center md:text-left">
               <h1 className="text-4xl md:text-6xl font-extrabold leading-tight">
-                A new way for lawyers to build with AI
+                A new way for lawyers to evolve with AI
               </h1>
               <p className="mt-4 text-lg text-muted-foreground/90">
                 Legal Artificial Intelligence Development (Legalaid) creates simple, pragmatic AI tools for legal practitioners.
