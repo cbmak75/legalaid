@@ -55,7 +55,7 @@ const Index = () => {
               </p>
               <div className="mt-8 flex flex-wrap gap-3 justify-center md:justify-start">
                 <Button asChild size="lg" variant="hero">
-                  <a href="https://ukinnovator.online" target="_blank" rel="noreferrer">Explore ukinnovator.online</a>
+                  <a href="https://www.ukinnovator.online" target="_blank" rel="noreferrer">Explore ukinnovator.online</a>
                 </Button>
                 <Button asChild size="lg" variant="outline" className="text-foreground hover:text-foreground">
                   <a href="#about">Learn more</a>
@@ -103,7 +103,7 @@ const Index = () => {
             </div>
             <div className="mt-8 flex justify-center md:justify-start">
               <Button asChild size="lg">
-                <a href="https://ukinnovator.online" target="_blank" rel="noreferrer">Use ukinnovator.online</a>
+                <a href="https://www.ukinnovator.online" target="_blank" rel="noreferrer">Use ukinnovator.online</a>
               </Button>
             </div>
           </div>
@@ -188,7 +188,7 @@ const Index = () => {
           <p className="text-sm text-brand-contrast">© {new Date().getFullYear()} Legal Artificial Intelligence Development Ltd</p>
           <div className="flex gap-4">
             <a className="text-sm text-brand-contrast hover:text-brand-contrast" href="#about">About</a>
-            <a className="text-sm text-brand-contrast hover:text-brand-contrast" href="https://ukinnovator.online" target="_blank" rel="noreferrer">ukinnovator.online</a>
+            <a className="text-sm text-brand-contrast hover:text-brand-contrast" href="https://www.ukinnovator.online" target="_blank" rel="noreferrer">ukinnovator.online</a>
           </div>
         </div>
       </footer>
@@ -203,7 +203,7 @@ const Index = () => {
             name: "Legal Artificial Intelligence Development (Legalaid) Ltd",
             url: "https://legalaid.dev",
             logo: "https://legalaid.dev/lovable-uploads/4be43dfe-c9fa-4767-93be-f0925780e6b1.png",
-            sameAs: ["https://ukinnovator.online"],
+            sameAs: ["https://www.ukinnovator.online"],
           }),
         }}
       />
@@ -217,7 +217,7 @@ const Index = () => {
             applicationCategory: "BusinessApplication",
             operatingSystem: "Web",
             offers: { "@type": "Offer", price: 0, priceCurrency: "GBP" },
-            url: "https://ukinnovator.online",
+            url: "https://www.ukinnovator.online",
           }),
         }}
       />
