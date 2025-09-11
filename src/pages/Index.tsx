@@ -119,7 +119,7 @@ const Index = () => {
                 Lawyery founding solicitor, Chris Dias, has started a new venture aimed at changing the way lawyers use AI. The company, Legal Artificial Intelligence Development (Legalaid) Ltd, was formed to bring simple, AI powered tools to the legal sphere.
               </p>
               <p>
-                Legalaid has launched it’s inaugural beta version of ukinnovator.online, which utilises a unique algorithm to harness the analytical power of AI to pre-assess the business ideas of potential Innovators who want to launch in the UK. The site focusses on pre-assessment and is not intended to replace legal advice, but to show the potential of how lawyers can use AI to develop legal concepts to help clients.
+                Legalaid has launched it's inaugural beta version of ukinnovator.online, which utilises a unique algorithm to harness the analytical power of AI to pre-assess the business ideas of potential Innovators who want to launch in the UK. The site focusses on pre-assessment and is not intended to replace legal advice, but to show the potential of how lawyers can use AI to develop legal concepts to help clients.
               </p>
               
             </div>
@@ -130,10 +130,13 @@ const Index = () => {
                 Chris qualified in 2001 and has worked as an expert immigration lawyer for many firms including Horsfield Menzies, Dias Solicitors, ALT Legal, Gunnercooke and Halebury. He is currently Director of Lawyery.co with offices in Holborn. He teaches the Level 2 Advanced Immigration Law course for Free Movement.
               </p>
               <p>
-                “Ever since generative AI was launched, I have been coming up with ideas on how I could help my Team at Lawyery fix pain points to enable us to serve our clients better. I believe that the potential of AI to effect real change should be a grassroots revolution, led by practitioners not by billionaire CEO’s. That’s why I launched Legalaid, to help lawyers revolutionise the legal sphere, one small App at a time.”
+                "Since generative AI emerged, I've been exploring ways to address inefficiencies in legal practice to better serve clients at my firm, Lawyery. I firmly believe that AI's potential to drive meaningful change in the legal sector should be a grassroots movement, led by practitioners rather than corporate giants. Legalaid Ltd is my commitment to empowering solicitors to revolutionise the legal landscape, one innovative application at a time."
               </p>
               <p>
-                “I have been getting more and more enquiries from potential Innovators who were completely confused about whether their business idea would be acceptable for the UK’s Innovator Founder scheme, and so I thought that there must be some way to pre-assess these ideas before the Endorsement application which costs the applicant £1000. I intended this site as a step before seeing a lawyer, to give Innovators an idea of what is important to the assessment process before they need to spend any money. The site is free to use and offers two options to the user; a quick 5 minute assessment and a more in-depth 20 minute assessment. I believe it is essential for AI to be free to use for the end user, and I think this is increasingly the expectation.”
+                "I've seen a growing number of enquiries from potential Innovators who are uncertain about whether their business ideas meet the criteria for the UK's Innovator Founder scheme. The endorsement application process costs applicants £1,000, so I recognised the need for a preliminary assessment tool. This platform is a free, user-friendly resource designed to help Innovators understand key elements of the assessment process before investing in legal consultations. Accessibility is paramount, and I believe AI tools should be freely available to end users, aligning with modern expectations."
+              </p>
+              <p>
+                "Our goal is to empower solicitors with practical, accessible technology that enhances their ability to deliver results. This is just the beginning."
               </p>
               <p className="italic mt-4">— Chris Dias, Solicitor</p>
             </div>
