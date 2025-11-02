@@ -34,7 +34,7 @@ const Index = () => {
               <a href="#about">About</a>
             </Button>
             <Button asChild variant="link" className="text-brand-contrast hover:text-brand-contrast">
-              <a href="#launch">Launch</a>
+              <a href="#launch">Launches</a>
             </Button>
             <Button asChild variant="link" className="text-brand-contrast hover:text-brand-contrast">
               <a href="#contact">Contact</a>
@@ -104,6 +104,52 @@ const Index = () => {
             <div className="mt-8 flex justify-center md:justify-start">
               <Button asChild size="lg">
                 <a href="https://www.ukinnovator.online" target="_blank" rel="noreferrer">Use ukinnovator.online</a>
+              </Button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="container py-20">
+        <article className="max-w-3xl mx-auto text-center md:text-left">
+          <h2 className="text-3xl md:text-4xl font-bold">New launch: sponsorlicence.online</h2>
+          <p className="mt-4 text-muted-foreground">
+            As a UK sponsor licence holder, you have strict legal obligations to maintain compliance with UKVI requirements. Failure to meet these obligations can result in serious consequences including licence suspension or revocation, affecting your ability to hire international talent.
+          </p>
+        </article>
+        <div className="mt-10 grid md:grid-cols-2 gap-8 items-center">
+          <img
+             src="/lovable-uploads/sponsorlicence-online.png"
+             alt="sponsorlicence.online - AI-powered sponsor licence compliance tool"
+             className="w-full max-w-md md:max-w-none rounded-lg border border-border mx-auto md:mx-0 object-contain"
+             loading="lazy"
+             sizes="(min-width: 768px) 640px, 320px"
+           />
+          <div className="text-center md:text-left">
+            <h3 className="text-2xl font-semibold mb-4">A comprehensive compliance action plan helps you:</h3>
+            <div className="space-y-4 text-base text-muted-foreground">
+              <p>
+                <strong>Prevent costly mistakes:</strong> Identify potential compliance gaps before they become serious issues
+              </p>
+              <p>
+                <strong>Streamline processes:</strong> Establish clear procedures for Right to Work checks, record-keeping, and reporting
+              </p>
+              <p>
+                <strong>Protect your licence:</strong> Demonstrate proactive compliance management during UKVI audits
+              </p>
+              <p>
+                <strong>Save time and resources:</strong> Avoid the stress and expense of dealing with compliance breaches
+              </p>
+              <p>
+                <strong>Ensure continuity:</strong> Maintain business operations even when key personnel are unavailable
+              </p>
+              <p>
+                Our AI-powered tool generates a tailored action plan specific to your organisation's structure, workforce composition, and compliance needs - helping you stay on the right side of UKVI regulations from day one.
+              </p>
+            </div>
+            <div className="mt-8 flex justify-center md:justify-start">
+              <Button asChild size="lg">
+                <a href="https://www.sponsorlicence.online" target="_blank" rel="noreferrer">Use sponsorlicence.online</a>
               </Button>
             </div>
           </div>
@@ -189,6 +235,7 @@ const Index = () => {
           <div className="flex gap-4">
             <a className="text-sm text-brand-contrast hover:text-brand-contrast" href="#about">About</a>
             <a className="text-sm text-brand-contrast hover:text-brand-contrast" href="https://www.ukinnovator.online" target="_blank" rel="noreferrer">ukinnovator.online</a>
+            <a className="text-sm text-brand-contrast hover:text-brand-contrast" href="https://www.sponsorlicence.online" target="_blank" rel="noreferrer">sponsorlicence.online</a>
           </div>
         </div>
       </footer>
