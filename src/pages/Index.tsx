@@ -77,13 +77,13 @@ const Index = () => {
         </section>
       </main>
 
-      <section id="launch" className="bg-section-ukinnovator py-20 border-y border-border/50">
+      <section id="launch" className="bg-section-ukinnovator py-20 border-y border-border/50 text-white">
         <div className="container">
           <article className="max-w-3xl mx-auto text-center md:text-left animate-fade-in">
-            <h2 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-primary to-brand-2 bg-clip-text text-transparent">
+            <h2 className="text-3xl md:text-4xl font-bold text-white">
               Beta launch: ukinnovator.online
             </h2>
-            <p className="mt-4 text-muted-foreground">
+            <p className="mt-4 text-white/90">
               Legalaid has launched its inaugural beta of ukinnovator.online — a free, AI-powered pre-assessment tool helping potential Innovator Founders gauge the strength of their business ideas for the UK scheme. It offers a quick 5-minute assessment and a more in-depth 20-minute option.
             </p>
           </article>
@@ -96,8 +96,8 @@ const Index = () => {
                sizes="(min-width: 768px) 640px, 320px"
              />
             <div className="text-center md:text-left animate-slide-in-right">
-              <div className="space-y-4 text-base text-muted-foreground">
-                <p className="p-4 bg-gradient-accent rounded-lg border border-primary/10">
+              <div className="space-y-4 text-base text-white/90">
+                <p className="p-4 bg-white/10 rounded-lg border border-white/20">
                   The tool uses a unique algorithm to harness AI's analytical power, pre-assessing business ideas for innovation, scalability, and viability. It is intended as a step before seeing a lawyer and does not replace legal advice.
                 </p>
                 <p>
@@ -114,37 +114,37 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="bg-section-sponsorlicence py-20">
+      <section className="bg-section-sponsorlicence py-20 text-black">
         <div className="container">
           <article className="max-w-3xl mx-auto text-center md:text-left animate-fade-in">
-            <h2 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-brand-2 to-primary bg-clip-text text-transparent">
+            <h2 className="text-3xl md:text-4xl font-bold text-black">
               New launch: sponsorlicence.online
             </h2>
-            <p className="mt-4 text-muted-foreground">
+            <p className="mt-4 text-black/90">
               As a UK sponsor licence holder, you have strict legal obligations to maintain compliance with UKVI requirements. Failure to meet these obligations can result in serious consequences including licence suspension or revocation, affecting your ability to hire international talent.
             </p>
           </article>
           <div className="mt-10 grid md:grid-cols-2 gap-8 items-center">
             <div className="text-center md:text-left animate-slide-in-left order-2 md:order-1">
-              <h3 className="text-2xl font-semibold mb-4 text-foreground">A comprehensive compliance action plan helps you:</h3>
-              <div className="space-y-3 text-base text-muted-foreground">
-                <div className="p-3 rounded-lg border-l-4 border-primary bg-card hover:bg-gradient-accent transition-colors">
-                  <strong className="text-foreground">Prevent costly mistakes:</strong> Identify potential compliance gaps before they become serious issues
+              <h3 className="text-2xl font-semibold mb-4 text-black">A comprehensive compliance action plan helps you:</h3>
+              <div className="space-y-3 text-base text-black/90">
+                <div className="p-3 rounded-lg border-l-4 border-black/30 bg-white/20 hover:bg-white/30 transition-colors">
+                  <strong className="text-black">Prevent costly mistakes:</strong> Identify potential compliance gaps before they become serious issues
                 </div>
-                <div className="p-3 rounded-lg border-l-4 border-brand-2 bg-card hover:bg-gradient-accent transition-colors">
-                  <strong className="text-foreground">Streamline processes:</strong> Establish clear procedures for Right to Work checks, record-keeping, and reporting
+                <div className="p-3 rounded-lg border-l-4 border-black/30 bg-white/20 hover:bg-white/30 transition-colors">
+                  <strong className="text-black">Streamline processes:</strong> Establish clear procedures for Right to Work checks, record-keeping, and reporting
                 </div>
-                <div className="p-3 rounded-lg border-l-4 border-primary bg-card hover:bg-gradient-accent transition-colors">
-                  <strong className="text-foreground">Protect your licence:</strong> Demonstrate proactive compliance management during UKVI audits
+                <div className="p-3 rounded-lg border-l-4 border-black/30 bg-white/20 hover:bg-white/30 transition-colors">
+                  <strong className="text-black">Protect your licence:</strong> Demonstrate proactive compliance management during UKVI audits
                 </div>
-                <div className="p-3 rounded-lg border-l-4 border-brand-2 bg-card hover:bg-gradient-accent transition-colors">
-                  <strong className="text-foreground">Save time and resources:</strong> Avoid the stress and expense of dealing with compliance breaches
+                <div className="p-3 rounded-lg border-l-4 border-black/30 bg-white/20 hover:bg-white/30 transition-colors">
+                  <strong className="text-black">Save time and resources:</strong> Avoid the stress and expense of dealing with compliance breaches
                 </div>
-                <div className="p-3 rounded-lg border-l-4 border-primary bg-card hover:bg-gradient-accent transition-colors">
-                  <strong className="text-foreground">Ensure continuity:</strong> Maintain business operations even when key personnel are unavailable
+                <div className="p-3 rounded-lg border-l-4 border-black/30 bg-white/20 hover:bg-white/30 transition-colors">
+                  <strong className="text-black">Ensure continuity:</strong> Maintain business operations even when key personnel are unavailable
                 </div>
               </div>
-              <p className="mt-6 p-4 bg-gradient-accent rounded-lg border border-brand-2/20 text-muted-foreground">
+              <p className="mt-6 p-4 bg-white/20 rounded-lg border border-black/20 text-black/90">
                 Our AI-powered tool generates a tailored action plan specific to your organisation's structure, workforce composition, and compliance needs - helping you stay on the right side of UKVI regulations from day one.
               </p>
               <div className="mt-8 flex justify-center md:justify-start">
@@ -164,13 +164,13 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="bg-section-ukvisit py-20 border-y border-border/50">
+      <section className="bg-section-ukvisit py-20 border-y border-border/50 text-black">
         <div className="container">
           <article className="max-w-3xl mx-auto text-center md:text-left animate-fade-in">
-            <h2 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-brand-3 to-primary bg-clip-text text-transparent">
+            <h2 className="text-3xl md:text-4xl font-bold text-black">
               New launch: ukvisit.online
             </h2>
-            <p className="mt-4 text-muted-foreground">
+            <p className="mt-4 text-black/90">
               This tool helps UK visit visa applicants and their UK hosts prepare comprehensive documentation packages. By answering detailed questions about your circumstances, travel plans, and financial situation, you will receive personalised guidance to strengthen your visa application.
             </p>
           </article>
@@ -183,22 +183,22 @@ const Index = () => {
                sizes="(min-width: 768px) 640px, 320px"
              />
             <div className="text-center md:text-left animate-slide-in-right">
-              <h3 className="text-2xl font-semibold mb-4 text-foreground">What you'll receive:</h3>
-              <div className="space-y-3 text-base text-muted-foreground">
-                <div className="p-3 rounded-lg border-l-4 border-brand-3 bg-card hover:bg-gradient-accent transition-colors">
-                  <strong className="text-foreground">Document checklists:</strong> Comprehensive lists of required and recommended documents for your specific situation
+              <h3 className="text-2xl font-semibold mb-4 text-black">What you'll receive:</h3>
+              <div className="space-y-3 text-base text-black/90">
+                <div className="p-3 rounded-lg border-l-4 border-black/30 bg-white/20 hover:bg-white/30 transition-colors">
+                  <strong className="text-black">Document checklists:</strong> Comprehensive lists of required and recommended documents for your specific situation
                 </div>
-                <div className="p-3 rounded-lg border-l-4 border-primary bg-card hover:bg-gradient-accent transition-colors">
-                  <strong className="text-foreground">Sample itineraries:</strong> Template travel plans that demonstrate clear visit intentions
+                <div className="p-3 rounded-lg border-l-4 border-black/30 bg-white/20 hover:bg-white/30 transition-colors">
+                  <strong className="text-black">Sample itineraries:</strong> Template travel plans that demonstrate clear visit intentions
                 </div>
-                <div className="p-3 rounded-lg border-l-4 border-brand-3 bg-card hover:bg-gradient-accent transition-colors">
-                  <strong className="text-foreground">Invitation letter templates:</strong> Professional templates for UK hosts to support applications
+                <div className="p-3 rounded-lg border-l-4 border-black/30 bg-white/20 hover:bg-white/30 transition-colors">
+                  <strong className="text-black">Invitation letter templates:</strong> Professional templates for UK hosts to support applications
                 </div>
-                <div className="p-3 rounded-lg border-l-4 border-primary bg-card hover:bg-gradient-accent transition-colors">
-                  <strong className="text-foreground">Risk assessments:</strong> Identification of potential application weaknesses and how to address them
+                <div className="p-3 rounded-lg border-l-4 border-black/30 bg-white/20 hover:bg-white/30 transition-colors">
+                  <strong className="text-black">Risk assessments:</strong> Identification of potential application weaknesses and how to address them
                 </div>
               </div>
-              <p className="mt-6 p-4 bg-gradient-accent rounded-lg border border-brand-3/20 text-muted-foreground">
+              <p className="mt-6 p-4 bg-white/20 rounded-lg border border-black/20 text-black/90">
                 Get personalised guidance tailored to your circumstances, ensuring you submit the strongest possible application.
               </p>
               <div className="mt-8 flex justify-center md:justify-start">
