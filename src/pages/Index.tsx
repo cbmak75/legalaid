@@ -77,89 +77,99 @@ const Index = () => {
         </section>
       </main>
 
-      <section id="launch" className="container py-20">
-        <article className="max-w-3xl mx-auto text-center md:text-left">
-          <h2 className="text-3xl md:text-4xl font-bold">Beta launch: ukinnovator.online</h2>
-          <p className="mt-4 text-muted-foreground">
-            Legalaid has launched its inaugural beta of ukinnovator.online — a free, AI-powered pre-assessment tool helping potential Innovator Founders gauge the strength of their business ideas for the UK scheme. It offers a quick 5-minute assessment and a more in-depth 20-minute option.
-          </p>
-        </article>
-        <div className="mt-10 grid md:grid-cols-2 gap-8 items-center">
-          <img
-             src="/lovable-uploads/7cbd0e22-9d9d-45f9-a815-6631a1d2713e.png"
-             alt="Legalaid beta launch poster for ukinnovator.online"
-             className="w-full max-w-md md:max-w-none rounded-lg border border-border mx-auto md:mx-0 object-contain"
-             loading="lazy"
-             sizes="(min-width: 768px) 640px, 320px"
-           />
-          <div className="text-center md:text-left">
-            <div className="space-y-4 text-base text-muted-foreground">
-              <p>
-                The tool uses a unique algorithm to harness AI's analytical power, pre-assessing business ideas for innovation, scalability, and viability. It is intended as a step before seeing a lawyer and does not replace legal advice.
-              </p>
-              <p>
-                We believe AI should be free to use for end users. This launch demonstrates how practitioners can craft targeted tools that help clients and advance legal practice.
-              </p>
-            </div>
-            <div className="mt-8 flex justify-center md:justify-start">
-              <Button asChild size="lg">
-                <a href="https://www.ukinnovator.online" target="_blank" rel="noreferrer">Use ukinnovator.online</a>
-              </Button>
+      <section id="launch" className="bg-section-1 py-20 border-y border-border/50">
+        <div className="container">
+          <article className="max-w-3xl mx-auto text-center md:text-left animate-fade-in">
+            <h2 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-primary to-brand-2 bg-clip-text text-transparent">
+              Beta launch: ukinnovator.online
+            </h2>
+            <p className="mt-4 text-muted-foreground">
+              Legalaid has launched its inaugural beta of ukinnovator.online — a free, AI-powered pre-assessment tool helping potential Innovator Founders gauge the strength of their business ideas for the UK scheme. It offers a quick 5-minute assessment and a more in-depth 20-minute option.
+            </p>
+          </article>
+          <div className="mt-10 grid md:grid-cols-2 gap-8 items-center">
+            <img
+               src="/lovable-uploads/7cbd0e22-9d9d-45f9-a815-6631a1d2713e.png"
+               alt="Legalaid beta launch poster for ukinnovator.online"
+               className="w-full max-w-md md:max-w-none rounded-lg border-2 border-primary/20 shadow-soft hover:shadow-glow hover:scale-105 transition-all duration-300 mx-auto md:mx-0 object-contain animate-slide-in-left"
+               loading="lazy"
+               sizes="(min-width: 768px) 640px, 320px"
+             />
+            <div className="text-center md:text-left animate-slide-in-right">
+              <div className="space-y-4 text-base text-muted-foreground">
+                <p className="p-4 bg-gradient-accent rounded-lg border border-primary/10">
+                  The tool uses a unique algorithm to harness AI's analytical power, pre-assessing business ideas for innovation, scalability, and viability. It is intended as a step before seeing a lawyer and does not replace legal advice.
+                </p>
+                <p>
+                  We believe AI should be free to use for end users. This launch demonstrates how practitioners can craft targeted tools that help clients and advance legal practice.
+                </p>
+              </div>
+              <div className="mt-8 flex justify-center md:justify-start">
+                <Button asChild size="lg" className="hover:scale-105 transition-transform">
+                  <a href="https://www.ukinnovator.online" target="_blank" rel="noreferrer">Use ukinnovator.online</a>
+                </Button>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="container py-20">
-        <article className="max-w-3xl mx-auto text-center md:text-left">
-          <h2 className="text-3xl md:text-4xl font-bold">New launch: sponsorlicence.online</h2>
-          <p className="mt-4 text-muted-foreground">
-            As a UK sponsor licence holder, you have strict legal obligations to maintain compliance with UKVI requirements. Failure to meet these obligations can result in serious consequences including licence suspension or revocation, affecting your ability to hire international talent.
-          </p>
-        </article>
-        <div className="mt-10 grid md:grid-cols-2 gap-8 items-center">
-          <img
-             src="/lovable-uploads/sponsorlicence-online.png"
-             alt="sponsorlicence.online - AI-powered sponsor licence compliance tool"
-             className="w-full max-w-md md:max-w-none rounded-lg border border-border mx-auto md:mx-0 object-contain"
-             loading="lazy"
-             sizes="(min-width: 768px) 640px, 320px"
-           />
-          <div className="text-center md:text-left">
-            <h3 className="text-2xl font-semibold mb-4">A comprehensive compliance action plan helps you:</h3>
-            <div className="space-y-4 text-base text-muted-foreground">
-              <p>
-                <strong>Prevent costly mistakes:</strong> Identify potential compliance gaps before they become serious issues
-              </p>
-              <p>
-                <strong>Streamline processes:</strong> Establish clear procedures for Right to Work checks, record-keeping, and reporting
-              </p>
-              <p>
-                <strong>Protect your licence:</strong> Demonstrate proactive compliance management during UKVI audits
-              </p>
-              <p>
-                <strong>Save time and resources:</strong> Avoid the stress and expense of dealing with compliance breaches
-              </p>
-              <p>
-                <strong>Ensure continuity:</strong> Maintain business operations even when key personnel are unavailable
-              </p>
-              <p>
+      <section className="bg-section-2 py-20">
+        <div className="container">
+          <article className="max-w-3xl mx-auto text-center md:text-left animate-fade-in">
+            <h2 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-brand-2 to-primary bg-clip-text text-transparent">
+              New launch: sponsorlicence.online
+            </h2>
+            <p className="mt-4 text-muted-foreground">
+              As a UK sponsor licence holder, you have strict legal obligations to maintain compliance with UKVI requirements. Failure to meet these obligations can result in serious consequences including licence suspension or revocation, affecting your ability to hire international talent.
+            </p>
+          </article>
+          <div className="mt-10 grid md:grid-cols-2 gap-8 items-center">
+            <div className="text-center md:text-left animate-slide-in-left order-2 md:order-1">
+              <h3 className="text-2xl font-semibold mb-4 text-foreground">A comprehensive compliance action plan helps you:</h3>
+              <div className="space-y-3 text-base text-muted-foreground">
+                <div className="p-3 rounded-lg border-l-4 border-primary bg-card hover:bg-gradient-accent transition-colors">
+                  <strong className="text-foreground">Prevent costly mistakes:</strong> Identify potential compliance gaps before they become serious issues
+                </div>
+                <div className="p-3 rounded-lg border-l-4 border-brand-2 bg-card hover:bg-gradient-accent transition-colors">
+                  <strong className="text-foreground">Streamline processes:</strong> Establish clear procedures for Right to Work checks, record-keeping, and reporting
+                </div>
+                <div className="p-3 rounded-lg border-l-4 border-primary bg-card hover:bg-gradient-accent transition-colors">
+                  <strong className="text-foreground">Protect your licence:</strong> Demonstrate proactive compliance management during UKVI audits
+                </div>
+                <div className="p-3 rounded-lg border-l-4 border-brand-2 bg-card hover:bg-gradient-accent transition-colors">
+                  <strong className="text-foreground">Save time and resources:</strong> Avoid the stress and expense of dealing with compliance breaches
+                </div>
+                <div className="p-3 rounded-lg border-l-4 border-primary bg-card hover:bg-gradient-accent transition-colors">
+                  <strong className="text-foreground">Ensure continuity:</strong> Maintain business operations even when key personnel are unavailable
+                </div>
+              </div>
+              <p className="mt-6 p-4 bg-gradient-accent rounded-lg border border-brand-2/20 text-muted-foreground">
                 Our AI-powered tool generates a tailored action plan specific to your organisation's structure, workforce composition, and compliance needs - helping you stay on the right side of UKVI regulations from day one.
               </p>
+              <div className="mt-8 flex justify-center md:justify-start">
+                <Button asChild size="lg" className="hover:scale-105 transition-transform">
+                  <a href="https://www.sponsorlicence.online" target="_blank" rel="noreferrer">Use sponsorlicence.online</a>
+                </Button>
+              </div>
             </div>
-            <div className="mt-8 flex justify-center md:justify-start">
-              <Button asChild size="lg">
-                <a href="https://www.sponsorlicence.online" target="_blank" rel="noreferrer">Use sponsorlicence.online</a>
-              </Button>
-            </div>
+            <img
+               src="/lovable-uploads/sponsorlicence-online.png"
+               alt="sponsorlicence.online - AI-powered sponsor licence compliance tool"
+               className="w-full max-w-md md:max-w-none rounded-lg border-2 border-brand-2/20 shadow-soft hover:shadow-glow hover:scale-105 transition-all duration-300 mx-auto md:mx-0 object-contain animate-slide-in-right order-1 md:order-2"
+               loading="lazy"
+               sizes="(min-width: 768px) 640px, 320px"
+             />
           </div>
         </div>
       </section>
 
-      <section id="about" className="bg-card py-20">
-        <div className="container grid md:grid-cols-3 gap-10 items-start">
-          <article className="md:col-span-2">
-            <h2 className="text-3xl md:text-4xl font-bold text-center md:text-left">About Legalaid</h2>
+      <section id="about" className="bg-card py-20 border-t-2 border-primary/10">
+        <div className="container grid md:grid-cols-3 gap-10 items-start animate-fade-in">
+          <article className="md:col-span-2 animate-slide-in-left">
+            <h2 className="text-3xl md:text-4xl font-bold text-center md:text-left bg-gradient-to-r from-primary via-brand-2 to-brand-3 bg-clip-text text-transparent">
+              About Legalaid
+            </h2>
             <div className="mt-4 space-y-4 text-muted-foreground text-center md:text-left">
               <p>
                 Lawyery founding solicitor, Chris Dias, has started a new venture aimed at changing the way lawyers use AI. The company, Legal Artificial Intelligence Development (Legalaid) Ltd, was formed to bring simple, AI powered tools to the legal sphere.
@@ -184,15 +194,15 @@ const Index = () => {
               <p className="italic mt-4">— Chris Dias, Solicitor</p>
             </div>
           </article>
-          <aside className="space-y-6">
+          <aside className="space-y-6 animate-slide-in-right">
             <img
                src="/lovable-uploads/13cc4723-2211-4966-996f-d5b01b9b16cb.png"
                alt="Founder portrait"
-               className="w-full max-w-xs sm:max-w-sm md:max-w-full rounded-lg border border-border shadow-glow mx-auto md:mx-0 object-cover"
+               className="w-full max-w-xs sm:max-w-sm md:max-w-full rounded-lg border-2 border-primary/20 shadow-glow hover:shadow-elegant hover:scale-105 transition-all duration-300 mx-auto md:mx-0 object-cover"
                loading="lazy"
                sizes="(min-width: 768px) 400px, 280px"
              />
-            <div className="p-6 rounded-lg border border-border shadow-sm">
+            <div className="p-6 rounded-lg border-2 border-primary/10 bg-gradient-accent shadow-soft hover:shadow-glow transition-all">
               <h4 className="font-semibold">Press & enquiries</h4>
               <p className="text-muted-foreground mt-2">For more information contact:</p>
               <a id="contact" href="mailto:chris.dias@lawyery.co" className="text-primary underline underline-offset-4">chris.dias@lawyery.co</a>
