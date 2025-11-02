@@ -164,6 +164,53 @@ const Index = () => {
         </div>
       </section>
 
+      <section className="bg-section-1 py-20 border-y border-border/50">
+        <div className="container">
+          <article className="max-w-3xl mx-auto text-center md:text-left animate-fade-in">
+            <h2 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-brand-3 to-primary bg-clip-text text-transparent">
+              New launch: ukvisit.online
+            </h2>
+            <p className="mt-4 text-muted-foreground">
+              This tool helps UK visit visa applicants and their UK hosts prepare comprehensive documentation packages. By answering detailed questions about your circumstances, travel plans, and financial situation, you will receive personalised guidance to strengthen your visa application.
+            </p>
+          </article>
+          <div className="mt-10 grid md:grid-cols-2 gap-8 items-center">
+            <img
+               src="/lovable-uploads/ukvisit-online.png"
+               alt="ukvisit.online - UK visit visa documentation preparation tool"
+               className="w-full max-w-md md:max-w-none rounded-lg border-2 border-brand-3/20 shadow-soft hover:shadow-glow hover:scale-105 transition-all duration-300 mx-auto md:mx-0 object-contain animate-slide-in-left"
+               loading="lazy"
+               sizes="(min-width: 768px) 640px, 320px"
+             />
+            <div className="text-center md:text-left animate-slide-in-right">
+              <h3 className="text-2xl font-semibold mb-4 text-foreground">What you'll receive:</h3>
+              <div className="space-y-3 text-base text-muted-foreground">
+                <div className="p-3 rounded-lg border-l-4 border-brand-3 bg-card hover:bg-gradient-accent transition-colors">
+                  <strong className="text-foreground">Document checklists:</strong> Comprehensive lists of required and recommended documents for your specific situation
+                </div>
+                <div className="p-3 rounded-lg border-l-4 border-primary bg-card hover:bg-gradient-accent transition-colors">
+                  <strong className="text-foreground">Sample itineraries:</strong> Template travel plans that demonstrate clear visit intentions
+                </div>
+                <div className="p-3 rounded-lg border-l-4 border-brand-3 bg-card hover:bg-gradient-accent transition-colors">
+                  <strong className="text-foreground">Invitation letter templates:</strong> Professional templates for UK hosts to support applications
+                </div>
+                <div className="p-3 rounded-lg border-l-4 border-primary bg-card hover:bg-gradient-accent transition-colors">
+                  <strong className="text-foreground">Risk assessments:</strong> Identification of potential application weaknesses and how to address them
+                </div>
+              </div>
+              <p className="mt-6 p-4 bg-gradient-accent rounded-lg border border-brand-3/20 text-muted-foreground">
+                Get personalised guidance tailored to your circumstances, ensuring you submit the strongest possible application.
+              </p>
+              <div className="mt-8 flex justify-center md:justify-start">
+                <Button asChild size="lg" className="hover:scale-105 transition-transform">
+                  <a href="https://www.ukvisit.online" target="_blank" rel="noreferrer">Use ukvisit.online</a>
+                </Button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section id="about" className="bg-card py-20 border-t-2 border-primary/10">
         <div className="container grid md:grid-cols-3 gap-10 items-start animate-fade-in">
           <article className="md:col-span-2 animate-slide-in-left">
@@ -246,6 +293,7 @@ const Index = () => {
             <a className="text-sm text-brand-contrast hover:text-brand-contrast" href="#about">About</a>
             <a className="text-sm text-brand-contrast hover:text-brand-contrast" href="https://www.ukinnovator.online" target="_blank" rel="noreferrer">ukinnovator.online</a>
             <a className="text-sm text-brand-contrast hover:text-brand-contrast" href="https://www.sponsorlicence.online" target="_blank" rel="noreferrer">sponsorlicence.online</a>
+            <a className="text-sm text-brand-contrast hover:text-brand-contrast" href="https://www.ukvisit.online" target="_blank" rel="noreferrer">ukvisit.online</a>
           </div>
         </div>
       </footer>
