@@ -77,7 +77,7 @@ const Index = () => {
         </section>
       </main>
 
-      <section id="launch" className="bg-section-1 py-20 border-y border-border/50">
+      <section id="launch" className="bg-section-ukinnovator py-20 border-y border-border/50">
         <div className="container">
           <article className="max-w-3xl mx-auto text-center md:text-left animate-fade-in">
             <h2 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-primary to-brand-2 bg-clip-text text-transparent">
@@ -114,7 +114,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="bg-section-2 py-20">
+      <section className="bg-section-sponsorlicence py-20">
         <div className="container">
           <article className="max-w-3xl mx-auto text-center md:text-left animate-fade-in">
             <h2 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-brand-2 to-primary bg-clip-text text-transparent">
@@ -164,7 +164,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="bg-section-1 py-20 border-y border-border/50">
+      <section className="bg-section-ukvisit py-20 border-y border-border/50">
         <div className="container">
           <article className="max-w-3xl mx-auto text-center md:text-left animate-fade-in">
             <h2 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-brand-3 to-primary bg-clip-text text-transparent">

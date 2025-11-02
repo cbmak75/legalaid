@@ -58,10 +58,13 @@ All colors MUST be HSL.
     /* Surface tokens */
     --bar: 0 0% 32%; /* #525252 */
 
+    /* Section-specific backgrounds */
+    --section-ukinnovator: 0 0% 32%; /* #525252 */
+    --section-sponsorlicence: 345 100% 80%; /* #ff99b2 */
+    --section-ukvisit: 336 100% 70%; /* #ff66c4 */
+
     /* Gradients, shadows, motion */
     --gradient-hero: radial-gradient(1200px circle at var(--mouse-x,50%) var(--mouse-y,40%), hsl(var(--brand)/0.20), transparent 60%), linear-gradient(180deg, hsl(var(--brand-dark)), hsl(222 28% 10%));
-    --gradient-section-1: linear-gradient(135deg, hsl(var(--background)), hsl(var(--brand)/0.03));
-    --gradient-section-2: linear-gradient(to bottom, hsl(var(--background)), hsl(var(--brand-2)/0.05), hsl(var(--background)));
     --gradient-accent: linear-gradient(135deg, hsl(var(--brand)/0.1), hsl(var(--brand-2)/0.1));
     --shadow-elegant: 0 10px 30px -10px hsl(var(--brand)/0.35);
     --shadow-glow: 0 0 40px hsl(var(--brand)/0.45);
@@ -132,8 +135,9 @@ All colors MUST be HSL.
 
 @layer utilities {
   .bg-hero { background: var(--gradient-hero); }
-  .bg-section-1 { background: var(--gradient-section-1); }
-  .bg-section-2 { background: var(--gradient-section-2); }
+  .bg-section-ukinnovator { background-color: hsl(var(--section-ukinnovator)); }
+  .bg-section-sponsorlicence { background-color: hsl(var(--section-sponsorlicence)); }
+  .bg-section-ukvisit { background-color: hsl(var(--section-ukvisit)); }
   .bg-gradient-accent { background: var(--gradient-accent); }
   .shadow-glow { box-shadow: var(--shadow-glow); }
   .shadow-soft { box-shadow: var(--shadow-soft); }
