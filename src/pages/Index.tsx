@@ -133,9 +133,6 @@ const Index = () => {
                 "Since generative AI emerged, I've been exploring ways to address inefficiencies in legal practice to better serve clients at my firm, Lawyery. I firmly believe that AI's potential to drive meaningful change in the legal sector should be a grassroots movement, led by practitioners rather than corporate giants. Legalaid Ltd is my commitment to empowering solicitors to revolutionise the legal landscape, one innovative application at a time."
               </p>
               <p>
-                "I've seen a growing number of enquiries from potential Innovators who are uncertain about whether their business ideas meet the criteria for the UK's Innovator Founder scheme. The endorsement application process costs applicants £1,000, so I recognised the need for a preliminary assessment tool. This platform is a free, user-friendly resource designed to help Innovators understand key elements of the assessment process before investing in legal consultations. Accessibility is paramount, and I believe AI tools should be freely available to end users, aligning with modern expectations."
-              </p>
-              <p>
                 "Our goal is to empower solicitors with practical, accessible technology that enhances their ability to deliver results. This is just the beginning."
               </p>
               <p className="italic mt-4">— Chris Dias, Solicitor</p>
