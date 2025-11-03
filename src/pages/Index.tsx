@@ -72,6 +72,26 @@ const Index = () => {
                   sizes="(min-width: 1024px) 640px, (min-width: 768px) 480px, 280px"
                 />
               </figure>
+              <div className="flex justify-center items-center gap-4 mt-8 flex-wrap">
+                <img
+                  src="/lovable-uploads/io-logo.png"
+                  alt="ukinnovator.online logo"
+                  className="h-16 w-auto border-2 border-white/20 rounded-lg hover:scale-105 transition-transform"
+                  loading="lazy"
+                />
+                <img
+                  src="/lovable-uploads/so-logo.png"
+                  alt="sponsorlicence.online logo"
+                  className="h-16 w-auto border-2 border-white/20 rounded-lg hover:scale-105 transition-transform"
+                  loading="lazy"
+                />
+                <img
+                  src="/lovable-uploads/uk-logo.png"
+                  alt="ukvisit.online logo"
+                  className="h-16 w-auto border-2 border-white/20 rounded-lg hover:scale-105 transition-transform"
+                  loading="lazy"
+                />
+              </div>
             </div>
           </div>
         </section>
