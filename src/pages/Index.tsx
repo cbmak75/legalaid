@@ -87,9 +87,6 @@ const Index = () => {
                     />
                   </a>
                 </div>
-                <Button asChild size="lg" variant="outline" className="text-foreground hover:text-foreground">
-                  <a href="#about">Learn more</a>
-                </Button>
               </div>
             </div>
             <div className="justify-self-center w-full">
