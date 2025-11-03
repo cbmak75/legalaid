@@ -356,8 +356,8 @@ const Index = () => {
               loading="lazy"
             />
             <img
-              src="/lovable-uploads/footer-logo.png"
-              alt="Footer logo"
+              src="/lovable-uploads/ai-doorlight.png"
+              alt="AI doorlight logo"
               className="h-10 md:h-16 w-auto"
               loading="lazy"
             />
