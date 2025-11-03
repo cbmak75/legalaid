@@ -236,7 +236,16 @@ const Index = () => {
       </section>
 
       <section id="about" className="bg-card py-20 border-t-2 border-primary/10">
-        <div className="container grid md:grid-cols-3 gap-10 items-start animate-fade-in">
+        <div className="container">
+          <div className="flex justify-center mb-8">
+            <img
+              src="/lovable-uploads/ai-logo.png"
+              alt="Legalaid logo"
+              className="h-32 w-auto border-2 border-primary rounded-lg"
+              loading="lazy"
+            />
+          </div>
+          <div className="grid md:grid-cols-3 gap-10 items-start animate-fade-in">
           <article className="md:col-span-2 animate-slide-in-left">
             <h2 className="text-3xl md:text-4xl font-bold text-center md:text-left bg-gradient-to-r from-primary via-brand-2 to-brand-3 bg-clip-text text-transparent">
               About Legalaid
@@ -301,6 +310,7 @@ const Index = () => {
               </div>
             </div>
           </aside>
+          </div>
         </div>
       </section>
 
