@@ -125,13 +125,15 @@ const Index = () => {
             </p>
           </article>
           <div className="mt-10 grid md:grid-cols-2 gap-8 items-center">
-            <img
-               src="/lovable-uploads/beta-ukinnovator-cover.png"
-               alt="Legalaid beta launch poster for ukinnovator.online"
-               className="w-full max-w-md md:max-w-none rounded-lg border-2 border-white/20 shadow-soft hover:shadow-glow hover:scale-105 transition-all duration-300 mx-auto md:mx-0 object-contain animate-slide-in-left"
-               loading="lazy"
-               sizes="(min-width: 768px) 640px, 320px"
-             />
+            <a href="https://www.ukinnovator.online" target="_blank" rel="noreferrer" className="block">
+              <img
+                 src="/lovable-uploads/beta-ukinnovator-cover.png"
+                 alt="Legalaid beta launch poster for ukinnovator.online"
+                 className="w-full max-w-md md:max-w-none rounded-lg border-2 border-white/20 shadow-soft hover:shadow-glow hover:scale-105 transition-all duration-300 mx-auto md:mx-0 object-contain animate-slide-in-left cursor-pointer"
+                 loading="lazy"
+                 sizes="(min-width: 768px) 640px, 320px"
+               />
+            </a>
             <div className="text-center md:text-left animate-slide-in-right">
               <div className="space-y-4 text-base text-white/90">
                 <p className="p-4 bg-white/10 rounded-lg border border-white/20">
@@ -198,13 +200,15 @@ const Index = () => {
                 </Button>
               </div>
             </div>
-            <img
-               src="/lovable-uploads/sponsorlicence-online-v2.png"
-               alt="sponsorlicence.online - AI-powered sponsor licence compliance tool"
-               className="w-full max-w-md md:max-w-none rounded-lg border-2 border-brand-2/20 shadow-soft hover:shadow-glow hover:scale-105 transition-all duration-300 mx-auto md:mx-0 object-contain animate-slide-in-right order-1 md:order-2"
-               loading="lazy"
-               sizes="(min-width: 768px) 640px, 320px"
-             />
+            <a href="https://www.sponsorlicence.online" target="_blank" rel="noreferrer" className="block order-1 md:order-2">
+              <img
+                 src="/lovable-uploads/sponsorlicence-online-v2.png"
+                 alt="sponsorlicence.online - AI-powered sponsor licence compliance tool"
+                 className="w-full max-w-md md:max-w-none rounded-lg border-2 border-brand-2/20 shadow-soft hover:shadow-glow hover:scale-105 transition-all duration-300 mx-auto md:mx-0 object-contain animate-slide-in-right cursor-pointer"
+                 loading="lazy"
+                 sizes="(min-width: 768px) 640px, 320px"
+               />
+            </a>
           </div>
         </div>
       </section>
@@ -228,13 +232,15 @@ const Index = () => {
             </p>
           </article>
           <div className="mt-10 grid md:grid-cols-2 gap-8 items-center">
-            <img
-               src="/lovable-uploads/ukvisit-online.png"
-               alt="ukvisit.online - UK visit visa documentation preparation tool"
-               className="w-full max-w-md md:max-w-none rounded-lg border-2 border-brand-3/20 shadow-soft hover:shadow-glow hover:scale-105 transition-all duration-300 mx-auto md:mx-0 object-contain animate-slide-in-left"
-               loading="lazy"
-               sizes="(min-width: 768px) 640px, 320px"
-             />
+            <a href="https://www.ukvisit.online" target="_blank" rel="noreferrer" className="block">
+              <img
+                 src="/lovable-uploads/ukvisit-online.png"
+                 alt="ukvisit.online - UK visit visa documentation preparation tool"
+                 className="w-full max-w-md md:max-w-none rounded-lg border-2 border-brand-3/20 shadow-soft hover:shadow-glow hover:scale-105 transition-all duration-300 mx-auto md:mx-0 object-contain animate-slide-in-left cursor-pointer"
+                 loading="lazy"
+                 sizes="(min-width: 768px) 640px, 320px"
+               />
+            </a>
             <div className="text-center md:text-left animate-slide-in-right">
               <h3 className="text-2xl font-semibold mb-4 text-white">What you'll receive:</h3>
               <div className="space-y-3 text-base text-white/90">
