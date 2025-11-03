@@ -182,6 +182,14 @@ const Index = () => {
 
       <section className="bg-section-ukvisit py-20 border-y border-border/50 text-black">
         <div className="container">
+          <div className="flex justify-center mb-8">
+            <img
+              src="/lovable-uploads/uk-logo.png"
+              alt="ukvisit.online logo"
+              className="h-32 w-auto"
+              loading="lazy"
+            />
+          </div>
           <article className="max-w-3xl mx-auto text-center md:text-left animate-fade-in">
             <h2 className="text-3xl md:text-4xl font-bold text-black">
               New launch: ukvisit.online
