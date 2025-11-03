@@ -170,7 +170,7 @@ const Index = () => {
               </div>
             </div>
             <img
-               src="/lovable-uploads/sponsorlicence-online.png"
+               src="/lovable-uploads/sponsorlicence-online-v2.png"
                alt="sponsorlicence.online - AI-powered sponsor licence compliance tool"
                className="w-full max-w-md md:max-w-none rounded-lg border-2 border-brand-2/20 shadow-soft hover:shadow-glow hover:scale-105 transition-all duration-300 mx-auto md:mx-0 object-contain animate-slide-in-right order-1 md:order-2"
                loading="lazy"
