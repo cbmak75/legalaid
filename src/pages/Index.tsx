@@ -278,7 +278,10 @@ const Index = () => {
                 Lawyery founding solicitor, Chris Dias, has started a new venture aimed at changing the way lawyers use AI. The company, Legal Artificial Intelligence Development (Legalaid) Ltd, was formed to bring simple, AI powered tools to the legal sphere.
               </p>
               <p>
-                Legalaid has launched it's inaugural beta version of ukinnovator.online, which utilises a unique algorithm to harness the analytical power of AI to pre-assess the business ideas of potential Innovators who want to launch in the UK. The site focusses on pre-assessment and is not intended to replace legal advice, but to show the potential of how lawyers can use AI to develop legal concepts to help clients.
+                Since founding the company and launching its inaugural beta of ukinnovator.online, Legalaid has gone on to launch two more innovative products in the immigration law space: sponsorlicence.online and ukvisit.online. The company champions innovative ways for Legal AI to assist clients and lawyers in all spheres of law, but has naturally focused on immigration law due to the Founder's background and expertise.
+              </p>
+              <p>
+                We are open to working with other law firms who are looking for consultation or collaboration to bring new legal AI ideas to life.
               </p>
               
             </div>
