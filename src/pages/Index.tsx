@@ -143,7 +143,7 @@ const Index = () => {
               </div>
               <div className="mt-8 flex justify-center md:justify-start">
                 <Button asChild size="lg" variant="hero" className="hover:scale-105 transition-transform">
-                  <a href="https://www.ukinnovator.online" target="_blank" rel="noreferrer">Use ukinnovator.online</a>
+                  <a href="https://www.ukinnovator.online" target="_blank" rel="noreferrer">Visit ukinnovator.online</a>
                 </Button>
               </div>
             </div>
@@ -194,7 +194,7 @@ const Index = () => {
               </p>
               <div className="mt-8 flex justify-center md:justify-start">
                 <Button asChild size="lg" variant="hero" className="hover:scale-105 transition-transform">
-                  <a href="https://www.sponsorlicence.online" target="_blank" rel="noreferrer">Use sponsorlicence.online</a>
+                  <a href="https://www.sponsorlicence.online" target="_blank" rel="noreferrer">Visit sponsorlicence.online</a>
                 </Button>
               </div>
             </div>
@@ -256,7 +256,7 @@ const Index = () => {
               </p>
               <div className="mt-8 flex justify-center md:justify-start">
                 <Button asChild size="lg" variant="hero" className="hover:scale-105 transition-transform">
-                  <a href="https://www.ukvisit.online" target="_blank" rel="noreferrer">Use ukvisit.online</a>
+                  <a href="https://www.ukvisit.online" target="_blank" rel="noreferrer">Visit ukvisit.online</a>
                 </Button>
               </div>
             </div>
