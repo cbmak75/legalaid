@@ -60,13 +60,14 @@ const Index = () => {
               <p className="mt-4 text-lg text-white">
                 Legal Artificial Intelligence Development (Legalaid) creates simple, pragmatic AI tools for legal practitioners.
               </p>
-              <div className="mt-8 flex flex-wrap gap-3 items-center justify-center md:justify-start">
-                <div className="flex gap-3 items-center">
+              <div className="mt-8">
+                <p className="text-lg text-white font-semibold mb-4">Find out more about our AI tools:</p>
+                <div className="flex flex-wrap gap-4 items-center justify-center md:justify-start">
                   <a href="#launch" className="block">
                     <img
                       src="/lovable-uploads/io-logo.png"
                       alt="ukinnovator.online logo"
-                      className="h-12 w-auto border-2 border-white rounded-lg hover:scale-105 transition-transform cursor-pointer animate-jiggle"
+                      className="h-16 md:h-20 w-auto border-2 border-white rounded-lg hover:scale-105 transition-transform cursor-pointer animate-jiggle"
                       loading="lazy"
                     />
                   </a>
@@ -74,7 +75,7 @@ const Index = () => {
                     <img
                       src="/lovable-uploads/so-logo.png"
                       alt="sponsorlicence.online logo"
-                      className="h-12 w-auto border-2 border-white rounded-lg hover:scale-105 transition-transform cursor-pointer animate-jiggle"
+                      className="h-16 md:h-20 w-auto border-2 border-white rounded-lg hover:scale-105 transition-transform cursor-pointer animate-jiggle"
                       loading="lazy"
                     />
                   </a>
@@ -82,7 +83,7 @@ const Index = () => {
                     <img
                       src="/lovable-uploads/uk-logo.png"
                       alt="ukvisit.online logo"
-                      className="h-12 w-auto border-2 border-white rounded-lg hover:scale-105 transition-transform cursor-pointer animate-jiggle"
+                      className="h-16 md:h-20 w-auto border-2 border-white rounded-lg hover:scale-105 transition-transform cursor-pointer animate-jiggle"
                       loading="lazy"
                     />
                   </a>
