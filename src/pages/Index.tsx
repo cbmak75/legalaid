@@ -50,7 +50,7 @@ const Index = () => {
               <h1 className="text-4xl md:text-6xl font-extrabold leading-tight">
                 A new way for lawyers to evolve with AI
               </h1>
-              <p className="mt-4 text-lg text-muted-foreground/90">
+              <p className="mt-4 text-lg text-white">
                 Legal Artificial Intelligence Development (Legalaid) creates simple, pragmatic AI tools for legal practitioners.
               </p>
               <div className="mt-8 flex flex-wrap gap-3 items-center justify-center md:justify-start">
