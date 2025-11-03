@@ -79,6 +79,14 @@ const Index = () => {
 
       <section id="launch" className="bg-section-ukinnovator py-20 border-y border-border/50 text-white">
         <div className="container">
+          <div className="flex justify-center mb-8">
+            <img
+              src="/lovable-uploads/io-logo.png"
+              alt="ukinnovator.online logo"
+              className="h-32 w-auto"
+              loading="lazy"
+            />
+          </div>
           <article className="max-w-3xl mx-auto text-center md:text-left animate-fade-in">
             <h2 className="text-3xl md:text-4xl font-bold text-white">
               Beta launch: ukinnovator.online
