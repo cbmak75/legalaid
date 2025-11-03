@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react";
 import { Button } from "@/components/ui/button";
+import { ArrowUp } from "lucide-react";
 
 const Index = () => {
   const heroRef = useRef<HTMLDivElement | null>(null);
@@ -150,6 +151,14 @@ const Index = () => {
               </div>
             </div>
           </div>
+          <div className="mt-12 flex justify-center">
+            <Button asChild variant="outline" size="lg" className="bg-white/10 border-white/20 text-white hover:bg-white/20">
+              <a href="#hero" className="flex items-center gap-2">
+                <ArrowUp className="h-4 w-4" />
+                Back to top
+              </a>
+            </Button>
+          </div>
         </div>
       </section>
 
@@ -210,6 +219,14 @@ const Index = () => {
                />
             </a>
           </div>
+          <div className="mt-12 flex justify-center">
+            <Button asChild variant="outline" size="lg" className="bg-white/10 border-white/20 text-white hover:bg-white/20">
+              <a href="#hero" className="flex items-center gap-2">
+                <ArrowUp className="h-4 w-4" />
+                Back to top
+              </a>
+            </Button>
+          </div>
         </div>
       </section>
 
@@ -266,6 +283,14 @@ const Index = () => {
                 </Button>
               </div>
             </div>
+          </div>
+          <div className="mt-12 flex justify-center">
+            <Button asChild variant="outline" size="lg" className="bg-white/10 border-white/20 text-white hover:bg-white/20">
+              <a href="#hero" className="flex items-center gap-2">
+                <ArrowUp className="h-4 w-4" />
+                Back to top
+              </a>
+            </Button>
           </div>
         </div>
       </section>
@@ -348,6 +373,14 @@ const Index = () => {
               </div>
             </div>
           </aside>
+          </div>
+          <div className="mt-12 flex justify-center">
+            <Button asChild variant="outline" size="lg">
+              <a href="#hero" className="flex items-center gap-2">
+                <ArrowUp className="h-4 w-4" />
+                Back to top
+              </a>
+            </Button>
           </div>
         </div>
       </section>
