@@ -94,8 +94,8 @@ const Index = () => {
             <div className="justify-self-center w-full">
               <figure className="w-full">
                 <img
-                  src="/lovable-uploads/4e1c48b3-aec9-4b02-afd1-746aeb3caeea.png"
-                  alt="Legalaid transparent logo"
+                  src="/lovable-uploads/hero-logo.png"
+                  alt="AI doorlight logo"
                   className="w-full h-auto max-w-[280px] sm:max-w-xs md:max-w-md lg:max-w-lg object-contain mx-auto"
                   loading="lazy"
                   sizes="(min-width: 1024px) 640px, (min-width: 768px) 480px, 280px"
