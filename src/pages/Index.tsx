@@ -55,24 +55,30 @@ const Index = () => {
               </p>
               <div className="mt-8 flex flex-wrap gap-3 items-center justify-center md:justify-start">
                 <div className="flex gap-3 items-center">
-                  <img
-                    src="/lovable-uploads/io-logo.png"
-                    alt="ukinnovator.online logo"
-                    className="h-12 w-auto border-2 border-white/20 rounded-lg hover:scale-105 transition-transform"
-                    loading="lazy"
-                  />
-                  <img
-                    src="/lovable-uploads/so-logo.png"
-                    alt="sponsorlicence.online logo"
-                    className="h-12 w-auto border-2 border-white/20 rounded-lg hover:scale-105 transition-transform"
-                    loading="lazy"
-                  />
-                  <img
-                    src="/lovable-uploads/uk-logo.png"
-                    alt="ukvisit.online logo"
-                    className="h-12 w-auto border-2 border-white/20 rounded-lg hover:scale-105 transition-transform"
-                    loading="lazy"
-                  />
+                  <a href="#launch" className="block">
+                    <img
+                      src="/lovable-uploads/io-logo.png"
+                      alt="ukinnovator.online logo"
+                      className="h-12 w-auto border-2 border-white/20 rounded-lg hover:scale-105 transition-transform cursor-pointer"
+                      loading="lazy"
+                    />
+                  </a>
+                  <a href="#sponsorlicence" className="block">
+                    <img
+                      src="/lovable-uploads/so-logo.png"
+                      alt="sponsorlicence.online logo"
+                      className="h-12 w-auto border-2 border-white/20 rounded-lg hover:scale-105 transition-transform cursor-pointer"
+                      loading="lazy"
+                    />
+                  </a>
+                  <a href="#ukvisit" className="block">
+                    <img
+                      src="/lovable-uploads/uk-logo.png"
+                      alt="ukvisit.online logo"
+                      className="h-12 w-auto border-2 border-white/20 rounded-lg hover:scale-105 transition-transform cursor-pointer"
+                      loading="lazy"
+                    />
+                  </a>
                 </div>
                 <Button asChild size="lg" variant="outline" className="text-foreground hover:text-foreground">
                   <a href="#about">Learn more</a>
@@ -139,7 +145,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="bg-section-sponsorlicence py-20 text-black">
+      <section id="sponsorlicence" className="bg-section-sponsorlicence py-20 text-black">
         <div className="container">
           <div className="flex justify-center mb-8">
             <img
@@ -197,7 +203,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="bg-section-ukvisit py-20 border-y border-border/50 text-black">
+      <section id="ukvisit" className="bg-section-ukvisit py-20 border-y border-border/50 text-black">
         <div className="container">
           <div className="flex justify-center mb-8">
             <img
