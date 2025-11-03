@@ -65,7 +65,7 @@ const Index = () => {
                     <img
                       src="/lovable-uploads/io-logo.png"
                       alt="ukinnovator.online logo"
-                      className="h-12 w-auto border-2 border-white rounded-lg hover:scale-105 transition-transform cursor-pointer"
+                      className="h-12 w-auto border-2 border-white rounded-lg hover:scale-105 transition-transform cursor-pointer animate-jiggle"
                       loading="lazy"
                     />
                   </a>
@@ -73,7 +73,7 @@ const Index = () => {
                     <img
                       src="/lovable-uploads/so-logo.png"
                       alt="sponsorlicence.online logo"
-                      className="h-12 w-auto border-2 border-white rounded-lg hover:scale-105 transition-transform cursor-pointer"
+                      className="h-12 w-auto border-2 border-white rounded-lg hover:scale-105 transition-transform cursor-pointer animate-jiggle"
                       loading="lazy"
                     />
                   </a>
@@ -81,7 +81,7 @@ const Index = () => {
                     <img
                       src="/lovable-uploads/uk-logo.png"
                       alt="ukvisit.online logo"
-                      className="h-12 w-auto border-2 border-white rounded-lg hover:scale-105 transition-transform cursor-pointer"
+                      className="h-12 w-auto border-2 border-white rounded-lg hover:scale-105 transition-transform cursor-pointer animate-jiggle"
                       loading="lazy"
                     />
                   </a>

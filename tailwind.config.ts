@@ -125,6 +125,17 @@ export default {
 						opacity: '1',
 						transform: 'scale(1)'
 					}
+				},
+				'jiggle': {
+					'0%, 100%': {
+						transform: 'rotate(0deg)'
+					},
+					'10%, 30%, 50%, 70%, 90%': {
+						transform: 'rotate(-3deg)'
+					},
+					'20%, 40%, 60%, 80%': {
+						transform: 'rotate(3deg)'
+					}
 				}
 			},
 			animation: {
@@ -133,7 +144,8 @@ export default {
 				'fade-in': 'fade-in 0.6s ease-out',
 				'slide-in-left': 'slide-in-left 0.6s ease-out',
 				'slide-in-right': 'slide-in-right 0.6s ease-out',
-				'scale-in': 'scale-in 0.5s ease-out'
+				'scale-in': 'scale-in 0.5s ease-out',
+				'jiggle': 'jiggle 0.8s ease-in-out 3'
 			}
 		}
 	},
