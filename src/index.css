@@ -131,6 +131,11 @@ All colors MUST be HSL.
   body {
     @apply bg-background text-foreground;
   }
+
+  /* Scroll offset for sticky header */
+  section[id], main[id] {
+    scroll-margin-top: 6rem;
+  }
 }
 
 @layer utilities {
