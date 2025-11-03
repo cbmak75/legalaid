@@ -53,10 +53,27 @@ const Index = () => {
               <p className="mt-4 text-lg text-muted-foreground/90">
                 Legal Artificial Intelligence Development (Legalaid) creates simple, pragmatic AI tools for legal practitioners.
               </p>
-              <div className="mt-8 flex flex-wrap gap-3 justify-center md:justify-start">
-                <Button asChild size="lg" variant="hero">
-                  <a href="https://www.ukinnovator.online" target="_blank" rel="noreferrer">Explore ukinnovator.online</a>
-                </Button>
+              <div className="mt-8 flex flex-wrap gap-3 items-center justify-center md:justify-start">
+                <div className="flex gap-3 items-center">
+                  <img
+                    src="/lovable-uploads/io-logo.png"
+                    alt="ukinnovator.online logo"
+                    className="h-12 w-auto border-2 border-white/20 rounded-lg hover:scale-105 transition-transform"
+                    loading="lazy"
+                  />
+                  <img
+                    src="/lovable-uploads/so-logo.png"
+                    alt="sponsorlicence.online logo"
+                    className="h-12 w-auto border-2 border-white/20 rounded-lg hover:scale-105 transition-transform"
+                    loading="lazy"
+                  />
+                  <img
+                    src="/lovable-uploads/uk-logo.png"
+                    alt="ukvisit.online logo"
+                    className="h-12 w-auto border-2 border-white/20 rounded-lg hover:scale-105 transition-transform"
+                    loading="lazy"
+                  />
+                </div>
                 <Button asChild size="lg" variant="outline" className="text-foreground hover:text-foreground">
                   <a href="#about">Learn more</a>
                 </Button>
@@ -72,26 +89,6 @@ const Index = () => {
                   sizes="(min-width: 1024px) 640px, (min-width: 768px) 480px, 280px"
                 />
               </figure>
-              <div className="flex justify-center items-center gap-4 mt-8 flex-wrap">
-                <img
-                  src="/lovable-uploads/io-logo.png"
-                  alt="ukinnovator.online logo"
-                  className="h-16 w-auto border-2 border-white/20 rounded-lg hover:scale-105 transition-transform"
-                  loading="lazy"
-                />
-                <img
-                  src="/lovable-uploads/so-logo.png"
-                  alt="sponsorlicence.online logo"
-                  className="h-16 w-auto border-2 border-white/20 rounded-lg hover:scale-105 transition-transform"
-                  loading="lazy"
-                />
-                <img
-                  src="/lovable-uploads/uk-logo.png"
-                  alt="ukvisit.online logo"
-                  className="h-16 w-auto border-2 border-white/20 rounded-lg hover:scale-105 transition-transform"
-                  loading="lazy"
-                />
-              </div>
             </div>
           </div>
         </section>
