@@ -91,7 +91,7 @@ const Index = () => {
             <img
                src="/lovable-uploads/beta-ukinnovator-cover.png"
                alt="Legalaid beta launch poster for ukinnovator.online"
-               className="w-full max-w-md md:max-w-none rounded-lg border-2 border-primary/20 shadow-soft hover:shadow-glow hover:scale-105 transition-all duration-300 mx-auto md:mx-0 object-contain animate-slide-in-left"
+               className="w-full max-w-md md:max-w-none rounded-lg border-2 border-white/20 shadow-soft hover:shadow-glow hover:scale-105 transition-all duration-300 mx-auto md:mx-0 object-contain animate-slide-in-left"
                loading="lazy"
                sizes="(min-width: 768px) 640px, 320px"
              />
