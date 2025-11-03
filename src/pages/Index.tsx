@@ -113,7 +113,7 @@ const Index = () => {
                 </p>
               </div>
               <div className="mt-8 flex justify-center md:justify-start">
-                <Button asChild size="lg" className="hover:scale-105 transition-transform">
+                <Button asChild size="lg" variant="hero" className="hover:scale-105 transition-transform">
                   <a href="https://www.ukinnovator.online" target="_blank" rel="noreferrer">Use ukinnovator.online</a>
                 </Button>
               </div>
@@ -164,7 +164,7 @@ const Index = () => {
                 Our AI-powered tool generates a tailored action plan specific to your organisation's structure, workforce composition, and compliance needs - helping you stay on the right side of UKVI regulations from day one.
               </p>
               <div className="mt-8 flex justify-center md:justify-start">
-                <Button asChild size="lg" className="hover:scale-105 transition-transform">
+                <Button asChild size="lg" variant="hero" className="hover:scale-105 transition-transform">
                   <a href="https://www.sponsorlicence.online" target="_blank" rel="noreferrer">Use sponsorlicence.online</a>
                 </Button>
               </div>
@@ -226,7 +226,7 @@ const Index = () => {
                 Get personalised guidance tailored to your circumstances, ensuring you submit the strongest possible application.
               </p>
               <div className="mt-8 flex justify-center md:justify-start">
-                <Button asChild size="lg" className="hover:scale-105 transition-transform">
+                <Button asChild size="lg" variant="hero" className="hover:scale-105 transition-transform">
                   <a href="https://www.ukvisit.online" target="_blank" rel="noreferrer">Use ukvisit.online</a>
                 </Button>
               </div>
