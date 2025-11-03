@@ -64,7 +64,7 @@ All colors MUST be HSL.
     --section-ukvisit: 323 100% 70%; /* #ff66c4 */
 
     /* Gradients, shadows, motion */
-    --gradient-hero: radial-gradient(1200px circle at var(--mouse-x,50%) var(--mouse-y,40%), hsl(var(--brand)/0.20), transparent 60%), linear-gradient(180deg, hsl(var(--brand-dark)), hsl(222 28% 10%));
+    --gradient-hero: hsl(0 0% 32%);
     --gradient-accent: linear-gradient(135deg, hsl(var(--brand)/0.1), hsl(var(--brand-2)/0.1));
     --shadow-elegant: 0 10px 30px -10px hsl(var(--brand)/0.35);
     --shadow-glow: 0 0 40px hsl(var(--brand)/0.45);
@@ -119,7 +119,7 @@ All colors MUST be HSL.
     /* Surface tokens */
     --bar: 0 0% 32%; /* #525252 */
 
-    --gradient-hero: radial-gradient(1200px circle at var(--mouse-x,50%) var(--mouse-y,40%), hsl(var(--brand)/0.25), transparent 60%), linear-gradient(180deg, hsl(var(--brand-dark)), hsl(222 28% 10%));
+    --gradient-hero: hsl(0 0% 32%);
   }
 }
 
