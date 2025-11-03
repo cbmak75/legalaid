@@ -83,7 +83,7 @@ const Index = () => {
             <img
               src="/lovable-uploads/io-logo.png"
               alt="ukinnovator.online logo"
-              className="h-32 w-auto"
+              className="h-32 w-auto border-2 border-white rounded-lg"
               loading="lazy"
             />
           </div>
@@ -128,7 +128,7 @@ const Index = () => {
             <img
               src="/lovable-uploads/so-logo.png"
               alt="sponsorlicence.online logo"
-              className="h-32 w-auto"
+              className="h-32 w-auto border-2 border-white rounded-lg"
               loading="lazy"
             />
           </div>
@@ -186,7 +186,7 @@ const Index = () => {
             <img
               src="/lovable-uploads/uk-logo.png"
               alt="ukvisit.online logo"
-              className="h-32 w-auto"
+              className="h-32 w-auto border-2 border-white rounded-lg"
               loading="lazy"
             />
           </div>
