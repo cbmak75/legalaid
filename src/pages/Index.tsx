@@ -54,7 +54,7 @@ const Index = () => {
           <div className="grid md:grid-cols-2 items-center gap-10">
             <div className="text-center md:text-left">
               <h1 className="text-4xl md:text-6xl font-extrabold leading-tight">
-                A new way for lawyers to <span className="inline-block bg-gradient-to-r from-transparent via-white to-transparent bg-[length:200%_100%] bg-clip-text text-transparent animate-shimmer-delayed" style={{ backgroundImage: 'linear-gradient(90deg, transparent 0%, transparent 40%, rgba(255,255,255,0.9) 50%, transparent 60%, transparent 100%)', WebkitBackgroundClip: 'text', backgroundClip: 'text' }}>evolve</span> with AI
+                A new way for lawyers to evolve with AI
               </h1>
               <p className="mt-4 text-lg text-white">
                 Legal Artificial Intelligence Development (Legalaid) creates simple, pragmatic AI tools for legal practitioners.

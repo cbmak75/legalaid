@@ -136,17 +136,6 @@ export default {
 					'20%, 40%, 60%, 80%': {
 						transform: 'rotate(3deg)'
 					}
-				},
-				'shimmer': {
-					'0%': {
-						backgroundPosition: '-200% center'
-					},
-					'15%': {
-						backgroundPosition: '200% center'
-					},
-					'15.01%, 100%': {
-						backgroundPosition: '200% center'
-					}
 				}
 			},
 			animation: {
@@ -156,9 +145,7 @@ export default {
 				'slide-in-left': 'slide-in-left 0.6s ease-out',
 				'slide-in-right': 'slide-in-right 0.6s ease-out',
 				'scale-in': 'scale-in 0.5s ease-out',
-				'jiggle': 'jiggle 0.8s ease-in-out 3',
-				'shimmer': 'shimmer 1.5s ease-in-out infinite',
-				'shimmer-delayed': 'shimmer 10s linear infinite'
+				'jiggle': 'jiggle 0.8s ease-in-out 3'
 			}
 		}
 	},
