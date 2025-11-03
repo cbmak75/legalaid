@@ -109,6 +109,14 @@ const Index = () => {
 
       <section id="launch" className="bg-section-ukinnovator py-20 border-y border-border/50 text-white">
         <div className="container">
+          <div className="mb-4">
+            <Button asChild variant="outline" size="sm" className="bg-white/10 border-white/20 text-white hover:bg-white/20">
+              <a href="#hero" className="flex items-center gap-2">
+                <ArrowUp className="h-4 w-4" />
+                Back to top
+              </a>
+            </Button>
+          </div>
           <div className="flex justify-center mb-8">
             <img
               src="/lovable-uploads/io-logo.png"
@@ -151,19 +159,19 @@ const Index = () => {
               </div>
             </div>
           </div>
-          <div className="mt-12 flex justify-center">
-            <Button asChild variant="outline" size="lg" className="bg-white/10 border-white/20 text-white hover:bg-white/20">
+        </div>
+      </section>
+
+      <section id="sponsorlicence" className="bg-section-sponsorlicence py-20 text-white">
+        <div className="container">
+          <div className="mb-4">
+            <Button asChild variant="outline" size="sm" className="bg-white/10 border-white/20 text-white hover:bg-white/20">
               <a href="#hero" className="flex items-center gap-2">
                 <ArrowUp className="h-4 w-4" />
                 Back to top
               </a>
             </Button>
           </div>
-        </div>
-      </section>
-
-      <section id="sponsorlicence" className="bg-section-sponsorlicence py-20 text-white">
-        <div className="container">
           <div className="flex justify-center mb-8">
             <img
               src="/lovable-uploads/so-logo.png"
@@ -219,19 +227,19 @@ const Index = () => {
                />
             </a>
           </div>
-          <div className="mt-12 flex justify-center">
-            <Button asChild variant="outline" size="lg" className="bg-white/10 border-white/20 text-white hover:bg-white/20">
+        </div>
+      </section>
+
+      <section id="ukvisit" className="bg-section-ukvisit py-20 border-y border-border/50 text-white">
+        <div className="container">
+          <div className="mb-4">
+            <Button asChild variant="outline" size="sm" className="bg-white/10 border-white/20 text-white hover:bg-white/20">
               <a href="#hero" className="flex items-center gap-2">
                 <ArrowUp className="h-4 w-4" />
                 Back to top
               </a>
             </Button>
           </div>
-        </div>
-      </section>
-
-      <section id="ukvisit" className="bg-section-ukvisit py-20 border-y border-border/50 text-white">
-        <div className="container">
           <div className="flex justify-center mb-8">
             <img
               src="/lovable-uploads/uk-logo.png"
@@ -284,19 +292,19 @@ const Index = () => {
               </div>
             </div>
           </div>
-          <div className="mt-12 flex justify-center">
-            <Button asChild variant="outline" size="lg" className="bg-white/10 border-white/20 text-white hover:bg-white/20">
+        </div>
+      </section>
+
+      <section id="about" className="bg-card py-20 border-t-2 border-primary/10">
+        <div className="container">
+          <div className="mb-4">
+            <Button asChild variant="outline" size="sm">
               <a href="#hero" className="flex items-center gap-2">
                 <ArrowUp className="h-4 w-4" />
                 Back to top
               </a>
             </Button>
           </div>
-        </div>
-      </section>
-
-      <section id="about" className="bg-card py-20 border-t-2 border-primary/10">
-        <div className="container">
           <div className="flex justify-center mb-8">
             <img
               src="/lovable-uploads/ai-logo.png"
@@ -373,14 +381,6 @@ const Index = () => {
               </div>
             </div>
           </aside>
-          </div>
-          <div className="mt-12 flex justify-center">
-            <Button asChild variant="outline" size="lg">
-              <a href="#hero" className="flex items-center gap-2">
-                <ArrowUp className="h-4 w-4" />
-                Back to top
-              </a>
-            </Button>
           </div>
         </div>
       </section>
