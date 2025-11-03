@@ -89,7 +89,7 @@ const Index = () => {
           </article>
           <div className="mt-10 grid md:grid-cols-2 gap-8 items-center">
             <img
-               src="/lovable-uploads/7cbd0e22-9d9d-45f9-a815-6631a1d2713e.png"
+               src="/lovable-uploads/beta-ukinnovator-cover.png"
                alt="Legalaid beta launch poster for ukinnovator.online"
                className="w-full max-w-md md:max-w-none rounded-lg border-2 border-primary/20 shadow-soft hover:shadow-glow hover:scale-105 transition-all duration-300 mx-auto md:mx-0 object-contain animate-slide-in-left"
                loading="lazy"
