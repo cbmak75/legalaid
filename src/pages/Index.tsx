@@ -392,12 +392,6 @@ const Index = () => {
               className="h-10 md:h-16 w-auto"
               loading="lazy"
             />
-            <img
-              src="/lovable-uploads/ai-doorlight.png"
-              alt="AI doorlight logo"
-              className="h-10 md:h-16 w-auto"
-              loading="lazy"
-            />
           </div>
           <p className="text-sm text-brand-contrast">© {new Date().getFullYear()} Legal Artificial Intelligence Development Ltd</p>
           <div className="flex gap-4">
