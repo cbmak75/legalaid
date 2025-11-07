@@ -307,7 +307,7 @@ const Index = () => {
           </div>
           <div className="grid md:grid-cols-3 gap-10 items-start animate-fade-in">
           <article className="md:col-span-2 animate-slide-in-left">
-            <h2 className="text-3xl md:text-4xl font-bold text-center md:text-left bg-gradient-to-r from-primary via-brand-2 to-brand-3 bg-clip-text text-transparent">
+            <h2 className="text-3xl md:text-4xl font-bold text-center md:text-left text-foreground">
               About Legalaid
             </h2>
             <div className="mt-4 space-y-4 text-muted-foreground text-center md:text-left">
