@@ -24,12 +24,6 @@ const Index = () => {
         <nav className="container flex items-center justify-between py-6 text-brand-contrast">
           <a href="#hero" className="hidden md:flex items-center gap-3" aria-label="Legalaid home">
             <img
-              src="/lovable-uploads/ai-logo-blue.png"
-              alt="AI logo"
-              className="h-10 md:h-12 w-auto border-2 border-white rounded-lg"
-              loading="eager"
-            />
-            <img
               src="/lovable-uploads/legalaid-logo.png"
               alt="Legalaid logo - Legal Artificial Intelligence Development"
               className="h-12 md:h-16 w-auto"
