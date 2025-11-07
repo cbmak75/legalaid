@@ -387,7 +387,7 @@ const Index = () => {
         <div className="container py-10 flex flex-col md:flex-row items-center justify-between gap-4 text-brand-contrast">
           <div className="flex items-center gap-4">
             <img
-              src="/lovable-uploads/4e1c48b3-aec9-4b02-afd1-746aeb3caeea.png"
+              src="/lovable-uploads/legalaid-logo.png"
               alt="Legalaid logo"
               className="h-10 md:h-16 w-auto"
               loading="lazy"
