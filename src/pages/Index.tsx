@@ -30,7 +30,7 @@ const Index = () => {
               loading="eager"
             />
             <img
-              src="/lovable-uploads/4e1c48b3-aec9-4b02-afd1-746aeb3caeea.png"
+              src="/lovable-uploads/legalaid-logo.png"
               alt="Legalaid logo - Legal Artificial Intelligence Development"
               className="h-12 md:h-16 w-auto"
               loading="eager"
