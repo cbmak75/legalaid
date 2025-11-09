@@ -22,7 +22,7 @@ const Index = () => {
     <div className="min-h-screen flex flex-col bg-background">
       <header className="sticky top-0 z-50 w-full bg-bar text-primary-foreground">
         <nav className="container flex items-center justify-between py-6 text-brand-contrast">
-          <a href="#hero" className="hidden md:flex items-center gap-3" aria-label="Legalaid home">
+          <a href="#hero" className="flex items-center gap-3" aria-label="Legalaid home">
             <img
               src="/lovable-uploads/legalaid-logo.png"
               alt="Legalaid logo - Legal Artificial Intelligence Development"
@@ -383,7 +383,7 @@ const Index = () => {
             <img
               src="/lovable-uploads/legalaid-logo.png"
               alt="Legalaid logo"
-              className="h-10 md:h-16 w-auto"
+              className="h-12 md:h-16 w-auto"
               loading="lazy"
             />
           </div>
