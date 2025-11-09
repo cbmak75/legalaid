@@ -379,14 +379,14 @@ const Index = () => {
 
       <footer className="border-t border-border bg-bar text-primary-foreground">
         <div className="container py-6 flex flex-col md:flex-row items-center justify-between gap-4 text-brand-contrast">
-          <div className="flex items-center gap-4">
+          <a href="#hero" className="flex items-center gap-4" aria-label="Legalaid home">
             <img
               src="/lovable-uploads/legalaid-logo.png"
               alt="Legalaid logo"
               className="h-12 md:h-16 w-auto"
               loading="lazy"
             />
-          </div>
+          </a>
           <p className="text-sm text-brand-contrast">© {new Date().getFullYear()} Legal Artificial Intelligence Development Ltd</p>
           <div className="flex gap-4">
             <a className="text-sm text-brand-contrast hover:text-brand-contrast" href="#about">About</a>
