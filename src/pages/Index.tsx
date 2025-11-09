@@ -378,7 +378,7 @@ const Index = () => {
       </section>
 
       <footer className="border-t border-border bg-bar text-primary-foreground">
-        <div className="container py-10 flex flex-col md:flex-row items-center justify-between gap-4 text-brand-contrast">
+        <div className="container py-6 flex flex-col md:flex-row items-center justify-between gap-4 text-brand-contrast">
           <div className="flex items-center gap-4">
             <img
               src="/lovable-uploads/legalaid-logo.png"
