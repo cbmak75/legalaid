@@ -75,7 +75,7 @@ const Index = () => {
                   </a>
                   <a href="#ukvisit" className="block">
                     <img
-                      src="/lovable-uploads/uk-logo.png"
+                      src="/lovable-uploads/uk-logo-new.png"
                       alt="ukvisit.online logo"
                       className="h-20 md:h-28 w-auto border-2 border-white rounded-lg hover:scale-105 hover:opacity-70 transition-all cursor-pointer animate-jiggle"
                       loading="lazy"
@@ -234,7 +234,7 @@ const Index = () => {
           </div>
           <div className="flex justify-center mb-8">
             <img
-              src="/lovable-uploads/uk-logo.png"
+              src="/lovable-uploads/uk-logo-new.png"
               alt="ukvisit.online logo"
               className="h-32 w-auto border-2 border-white rounded-lg"
               loading="lazy"
