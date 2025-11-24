@@ -125,7 +125,7 @@ const Index = () => {
               loading="lazy"
             />
           </div>
-          <article className="max-w-3xl mx-auto text-center md:text-left animate-fade-in">
+          <article className="max-w-3xl mx-auto text-center md:text-left animate-fade-in p-6 bg-black/40 rounded-lg backdrop-blur-sm">
             <h2 className="text-3xl md:text-4xl font-bold text-white drop-shadow-lg">
               New launch: uksettlement.com
             </h2>
@@ -145,20 +145,20 @@ const Index = () => {
             </a>
             <div className="text-center md:text-left animate-slide-in-right">
               <div className="space-y-4 text-base">
-                <p className="p-4 bg-white/10 rounded-lg border border-white/20 text-white/95 drop-shadow-md">
+                <p className="p-4 bg-black/50 rounded-lg border border-white/20 text-white/95 drop-shadow-md backdrop-blur-sm">
                   Whether you're on a work visa, family visa, or any other settlement route, this tool provides personalised insights into how the proposed changes could affect your journey to permanent residence in the UK.
                 </p>
                 <div className="space-y-3">
-                  <div className="p-3 rounded-lg border-l-4 border-white/30 bg-white/20 hover:bg-white/30 transition-colors">
+                  <div className="p-3 rounded-lg border-l-4 border-white/30 bg-black/50 hover:bg-black/60 transition-colors backdrop-blur-sm">
                     <strong className="text-white drop-shadow-md">Understand the changes:</strong> <span className="text-white/95 drop-shadow-sm">Clear explanations of proposed settlement rule modifications</span>
                   </div>
-                  <div className="p-3 rounded-lg border-l-4 border-white/30 bg-white/20 hover:bg-white/30 transition-colors">
+                  <div className="p-3 rounded-lg border-l-4 border-white/30 bg-black/50 hover:bg-black/60 transition-colors backdrop-blur-sm">
                     <strong className="text-white drop-shadow-md">Personal impact analysis:</strong> <span className="text-white/95 drop-shadow-sm">See how changes affect your specific settlement route</span>
                   </div>
-                  <div className="p-3 rounded-lg border-l-4 border-white/30 bg-white/20 hover:bg-white/30 transition-colors">
+                  <div className="p-3 rounded-lg border-l-4 border-white/30 bg-black/50 hover:bg-black/60 transition-colors backdrop-blur-sm">
                     <strong className="text-white drop-shadow-md">Expert resources:</strong> <span className="text-white/95 drop-shadow-sm">Access major resources and select commentaries on the proposals</span>
                   </div>
-                  <div className="p-3 rounded-lg border-l-4 border-white/30 bg-white/20 hover:bg-white/30 transition-colors">
+                  <div className="p-3 rounded-lg border-l-4 border-white/30 bg-black/50 hover:bg-black/60 transition-colors backdrop-blur-sm">
                     <strong className="text-white drop-shadow-md">Submit your voice:</strong> <span className="text-white/95 drop-shadow-sm">Participate in the consultation process if you wish</span>
                   </div>
                 </div>
