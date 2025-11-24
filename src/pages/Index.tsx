@@ -35,6 +35,9 @@ const Index = () => {
               <a href="#about">About</a>
             </Button>
             <Button asChild variant="link" className="text-brand-contrast hover:text-brand-contrast">
+              <a href="#uksettlement" className="font-bold">🔥 Urgent</a>
+            </Button>
+            <Button asChild variant="link" className="text-brand-contrast hover:text-brand-contrast">
               <a href="#launch">Launches</a>
             </Button>
             <Button asChild variant="link" className="text-brand-contrast hover:text-brand-contrast">
@@ -98,6 +101,101 @@ const Index = () => {
           </div>
         </section>
       </main>
+
+      {/* URGENT: UK Settlement Section */}
+      <section id="uksettlement" className="bg-section-uksettlement-dark py-20 border-y-4 border-section-uksettlement relative overflow-hidden">
+        <div className="absolute top-0 left-0 right-0 bg-section-uksettlement text-section-uksettlement-dark text-center py-2 px-4 font-bold text-sm md:text-base animate-pulse">
+          ⚠️ URGENT: Consultation period still open - Act now before it closes!
+        </div>
+        <div className="container pt-12">
+          <div className="mb-4">
+            <Button asChild variant="outline" size="sm" className="bg-section-uksettlement/10 border-section-uksettlement/30 text-section-uksettlement hover:bg-section-uksettlement/20">
+              <a href="#hero" className="flex items-center gap-2">
+                <ArrowUp className="h-4 w-4" />
+                Back to top
+              </a>
+            </Button>
+          </div>
+          
+          <article className="max-w-4xl mx-auto">
+            <div className="mb-10 animate-fade-in">
+              <a href="https://www.uksettlement.com" target="_blank" rel="noreferrer" className="block">
+                <img
+                  src="/lovable-uploads/uksettlement-hero.png"
+                  alt="uksettlement.com - UK Settlement consultation tool"
+                  className="w-full rounded-lg border-4 border-section-uksettlement shadow-glow hover:scale-[1.02] transition-all duration-300 cursor-pointer"
+                  loading="eager"
+                />
+              </a>
+            </div>
+
+            <div className="text-center mb-8">
+              <h2 className="text-4xl md:text-5xl font-extrabold text-section-uksettlement mb-4">
+                New Launch: uksettlement.com
+              </h2>
+              <p className="text-xl md:text-2xl text-white/90 font-semibold">
+                Have your say before it's too late!
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-8">
+              <div className="space-y-6 text-white/90 animate-slide-in-left">
+                <div className="p-6 rounded-lg bg-section-uksettlement/20 border-2 border-section-uksettlement/30">
+                  <h3 className="text-2xl font-bold text-section-uksettlement mb-3">What is uksettlement.com?</h3>
+                  <p className="leading-relaxed">
+                    The UK government is proposing major changes to settlement rules that could affect thousands of migrants. This free AI-powered tool helps you understand the consultation and craft a meaningful response.
+                  </p>
+                </div>
+
+                <div className="p-6 rounded-lg bg-section-uksettlement/20 border-2 border-section-uksettlement/30">
+                  <h3 className="text-2xl font-bold text-section-uksettlement mb-3">Why is this urgent?</h3>
+                  <p className="leading-relaxed">
+                    The consultation period is still open, but time is running out. Your voice matters in shaping immigration policy. This tool makes it easy to submit a professional, well-structured response even if you've never participated in a government consultation before.
+                  </p>
+                </div>
+              </div>
+
+              <div className="space-y-6 animate-slide-in-right">
+                <div className="p-6 rounded-lg bg-white/10 border-2 border-section-uksettlement/30">
+                  <h3 className="text-2xl font-bold text-section-uksettlement mb-4">How it works:</h3>
+                  <div className="space-y-4 text-white/90">
+                    <div className="flex gap-3">
+                      <div className="flex-shrink-0 w-8 h-8 rounded-full bg-section-uksettlement text-section-uksettlement-dark flex items-center justify-center font-bold">1</div>
+                      <p><strong className="text-white">Answer questions</strong> about your situation and concerns regarding the proposed changes</p>
+                    </div>
+                    <div className="flex gap-3">
+                      <div className="flex-shrink-0 w-8 h-8 rounded-full bg-section-uksettlement text-section-uksettlement-dark flex items-center justify-center font-bold">2</div>
+                      <p><strong className="text-white">AI generates</strong> a structured consultation response based on your input</p>
+                    </div>
+                    <div className="flex gap-3">
+                      <div className="flex-shrink-0 w-8 h-8 rounded-full bg-section-uksettlement text-section-uksettlement-dark flex items-center justify-center font-bold">3</div>
+                      <p><strong className="text-white">Submit directly</strong> to the government consultation portal before the deadline</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="p-6 rounded-lg bg-section-uksettlement/30 border-2 border-section-uksettlement">
+                  <p className="text-white/90 italic mb-4">
+                    "Don't let complex legal language stop you from having your say. This tool democratises access to the consultation process."
+                  </p>
+                  <p className="text-section-uksettlement font-semibold">— Free to use, designed for everyone</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="mt-10 text-center">
+              <Button asChild size="lg" className="bg-section-uksettlement hover:bg-section-uksettlement/90 text-section-uksettlement-dark font-bold text-lg px-8 py-6 h-auto hover:scale-105 transition-transform shadow-glow">
+                <a href="https://www.uksettlement.com" target="_blank" rel="noreferrer">
+                  Visit uksettlement.com now →
+                </a>
+              </Button>
+              <p className="mt-4 text-white/70 text-sm">
+                Time-sensitive: Consultation closes soon
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
 
       <section id="launch" className="bg-section-ukinnovator py-20 border-y border-border/50 text-white">
         <div className="container">
@@ -390,6 +488,7 @@ const Index = () => {
           <p className="text-sm text-brand-contrast">© {new Date().getFullYear()} Legal Artificial Intelligence Development Ltd</p>
           <div className="flex gap-4">
             <a className="text-sm text-brand-contrast hover:text-brand-contrast" href="#about">About</a>
+            <a className="text-sm text-brand-contrast hover:text-brand-contrast font-bold" href="https://www.uksettlement.com" target="_blank" rel="noreferrer">uksettlement.com 🔥</a>
             <a className="text-sm text-brand-contrast hover:text-brand-contrast" href="https://www.ukinnovator.online" target="_blank" rel="noreferrer">ukinnovator.online</a>
             <a className="text-sm text-brand-contrast hover:text-brand-contrast" href="https://www.sponsorlicence.online" target="_blank" rel="noreferrer">sponsorlicence.online</a>
             <a className="text-sm text-brand-contrast hover:text-brand-contrast" href="https://www.ukvisit.online" target="_blank" rel="noreferrer">ukvisit.online</a>
