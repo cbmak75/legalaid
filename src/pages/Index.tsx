@@ -301,7 +301,7 @@ const Index = () => {
             <img
               src="/lovable-uploads/reverse_of_ai_doorlight.png"
               alt="Legalaid logo"
-              className="h-32 w-auto border-2 border-primary rounded-lg"
+              className="h-64 w-auto rounded-lg"
               loading="lazy"
             />
           </div>
