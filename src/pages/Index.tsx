@@ -413,7 +413,7 @@ const Index = () => {
           </article>
           <aside className="space-y-6 animate-slide-in-right">
             <img
-               src="/lovable-uploads/13cc4723-2211-4966-996f-d5b01b9b16cb.png"
+               src="/lovable-uploads/chris-portrait-new.png"
                alt="Founder portrait"
                className="w-full max-w-xs sm:max-w-sm md:max-w-full rounded-lg border-2 border-primary/20 shadow-glow hover:shadow-elegant hover:scale-105 transition-all duration-300 mx-auto md:mx-0 object-cover"
                loading="lazy"
