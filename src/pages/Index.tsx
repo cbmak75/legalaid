@@ -102,8 +102,7 @@ const Index = () => {
         </section>
       </main>
 
-      {/* URGENT: UK Settlement Section */}
-      <section id="uksettlement" className="bg-section-uksettlement-dark py-20 border-y-4 border-section-uksettlement relative overflow-hidden">
+      <section id="uksettlement" className="bg-section-uksettlement-dark py-20 border-y-4 border-section-uksettlement relative overflow-hidden text-white">
         <div className="absolute top-0 left-0 right-0 bg-section-uksettlement text-section-uksettlement-dark text-center py-2 px-4 font-bold text-sm md:text-base animate-pulse">
           ⚠️ URGENT: Consultation period still open - Act now before it closes!
         </div>
@@ -116,84 +115,59 @@ const Index = () => {
               </a>
             </Button>
           </div>
-          
-          <article className="max-w-4xl mx-auto">
-            <div className="mb-10 animate-fade-in">
-              <a href="https://www.uksettlement.com" target="_blank" rel="noreferrer" className="block">
-                <img
-                  src="/lovable-uploads/uksettlement-hero.png"
-                  alt="uksettlement.com - UK Settlement consultation tool"
-                  className="w-full rounded-lg border-4 border-section-uksettlement shadow-glow hover:scale-[1.02] transition-all duration-300 cursor-pointer"
-                  loading="eager"
-                />
-              </a>
-            </div>
-
-            <div className="text-center mb-8">
-              <h2 className="text-4xl md:text-5xl font-extrabold text-section-uksettlement mb-4">
-                New Launch: uksettlement.com
-              </h2>
-              <p className="text-xl md:text-2xl text-white/90 font-semibold">
-                Have your say before it's too late!
-              </p>
-            </div>
-
-            <div className="grid md:grid-cols-2 gap-8">
-              <div className="space-y-6 text-white/90 animate-slide-in-left">
-                <div className="p-6 rounded-lg bg-section-uksettlement/20 border-2 border-section-uksettlement/30">
-                  <h3 className="text-2xl font-bold text-section-uksettlement mb-3">What is uksettlement.com?</h3>
-                  <p className="leading-relaxed">
-                    The UK government is proposing major changes to settlement rules that could affect thousands of migrants. This free AI-powered tool helps you understand the consultation and craft a meaningful response.
-                  </p>
-                </div>
-
-                <div className="p-6 rounded-lg bg-section-uksettlement/20 border-2 border-section-uksettlement/30">
-                  <h3 className="text-2xl font-bold text-section-uksettlement mb-3">Why is this urgent?</h3>
-                  <p className="leading-relaxed">
-                    The consultation period is still open, but time is running out. Your voice matters in shaping immigration policy. This tool makes it easy to submit a professional, well-structured response even if you've never participated in a government consultation before.
-                  </p>
-                </div>
-              </div>
-
-              <div className="space-y-6 animate-slide-in-right">
-                <div className="p-6 rounded-lg bg-white/10 border-2 border-section-uksettlement/30">
-                  <h3 className="text-2xl font-bold text-section-uksettlement mb-4">How it works:</h3>
-                  <div className="space-y-4 text-white/90">
-                    <div className="flex gap-3">
-                      <div className="flex-shrink-0 w-8 h-8 rounded-full bg-section-uksettlement text-section-uksettlement-dark flex items-center justify-center font-bold">1</div>
-                      <p><strong className="text-white">Answer questions</strong> about your situation and concerns regarding the proposed changes</p>
-                    </div>
-                    <div className="flex gap-3">
-                      <div className="flex-shrink-0 w-8 h-8 rounded-full bg-section-uksettlement text-section-uksettlement-dark flex items-center justify-center font-bold">2</div>
-                      <p><strong className="text-white">AI generates</strong> a structured consultation response based on your input</p>
-                    </div>
-                    <div className="flex gap-3">
-                      <div className="flex-shrink-0 w-8 h-8 rounded-full bg-section-uksettlement text-section-uksettlement-dark flex items-center justify-center font-bold">3</div>
-                      <p><strong className="text-white">Submit directly</strong> to the government consultation portal before the deadline</p>
-                    </div>
+          <div className="flex justify-center mb-8">
+            <img
+              src="/lovable-uploads/uksettlement-logo.png"
+              alt="uksettlement.com logo"
+              className="h-32 w-auto border-2 border-section-uksettlement rounded-lg"
+              loading="lazy"
+            />
+          </div>
+          <article className="max-w-3xl mx-auto text-center md:text-left animate-fade-in">
+            <h2 className="text-3xl md:text-4xl font-bold text-section-uksettlement">
+              🔥 Urgent Launch: uksettlement.com
+            </h2>
+            <p className="mt-4 text-white/90">
+              The UK government is proposing major changes to settlement rules that could affect thousands of migrants. The consultation period is still open - but time is running out. This free AI-powered tool helps you understand the consultation and craft a meaningful response before it's too late.
+            </p>
+          </article>
+          <div className="mt-10 grid md:grid-cols-2 gap-8 items-center">
+            <a href="https://www.uksettlement.com" target="_blank" rel="noreferrer" className="block">
+              <img
+                 src="/lovable-uploads/uksettlement-hero.png"
+                 alt="uksettlement.com - UK Settlement consultation tool"
+                 className="w-full max-w-md md:max-w-none rounded-lg border-2 border-section-uksettlement/20 shadow-soft hover:shadow-glow hover:scale-105 transition-all duration-300 mx-auto md:mx-0 object-contain animate-slide-in-left cursor-pointer"
+                 loading="lazy"
+                 sizes="(min-width: 768px) 640px, 320px"
+               />
+            </a>
+            <div className="text-center md:text-left animate-slide-in-right">
+              <div className="space-y-4 text-base text-white/90">
+                <p className="p-4 bg-section-uksettlement/20 rounded-lg border border-section-uksettlement/30">
+                  Your voice matters in shaping immigration policy. This tool makes it easy to submit a professional, well-structured response even if you've never participated in a government consultation before.
+                </p>
+                <div className="space-y-3">
+                  <div className="p-3 rounded-lg border-l-4 border-section-uksettlement/50 bg-white/10 hover:bg-white/15 transition-colors">
+                    <strong className="text-section-uksettlement">Answer questions</strong> about your situation and concerns
+                  </div>
+                  <div className="p-3 rounded-lg border-l-4 border-section-uksettlement/50 bg-white/10 hover:bg-white/15 transition-colors">
+                    <strong className="text-section-uksettlement">AI generates</strong> a structured consultation response
+                  </div>
+                  <div className="p-3 rounded-lg border-l-4 border-section-uksettlement/50 bg-white/10 hover:bg-white/15 transition-colors">
+                    <strong className="text-section-uksettlement">Submit directly</strong> to the government portal before deadline
                   </div>
                 </div>
-
-                <div className="p-6 rounded-lg bg-section-uksettlement/30 border-2 border-section-uksettlement">
-                  <p className="text-white/90 italic mb-4">
-                    "Don't let complex legal language stop you from having your say. This tool democratises access to the consultation process."
-                  </p>
-                  <p className="text-section-uksettlement font-semibold">— Free to use, designed for everyone</p>
-                </div>
+                <p className="italic text-white/80">
+                  "Don't let complex legal language stop you from having your say. This tool democratises access to the consultation process."
+                </p>
+              </div>
+              <div className="mt-8 flex justify-center md:justify-start">
+                <Button asChild size="lg" className="bg-section-uksettlement hover:bg-section-uksettlement/90 text-section-uksettlement-dark font-bold hover:scale-105 transition-transform">
+                  <a href="https://www.uksettlement.com" target="_blank" rel="noreferrer">Visit uksettlement.com</a>
+                </Button>
               </div>
             </div>
-
-            <div className="mt-10 text-center">
-              <Button asChild size="lg" className="bg-section-uksettlement hover:bg-section-uksettlement/90 text-section-uksettlement-dark font-bold text-lg px-8 py-6 h-auto hover:scale-105 transition-transform shadow-glow">
-                <a href="https://www.uksettlement.com" target="_blank" rel="noreferrer">
-                  Visit uksettlement.com now →
-                </a>
-              </Button>
-              <p className="mt-4 text-white/70 text-sm">
-                Time-sensitive: Consultation closes soon
-              </p>
-            </div>
-          </article>
+          </div>
         </div>
       </section>
 
