@@ -205,7 +205,7 @@ const Index = () => {
           <div className="mt-10 grid md:grid-cols-2 gap-8 items-center">
             <a href="https://www.ukinnovator.online" target="_blank" rel="noreferrer" className="block">
               <img
-                 src="/lovable-uploads/beta-ukinnovator-cover.png"
+                 src="/lovable-uploads/ukinnovator-hero-v4.png"
                  alt="Legalaid beta launch poster for ukinnovator.online"
                  className="w-full max-w-md md:max-w-none rounded-lg border-2 border-white/20 shadow-soft hover:shadow-glow hover:scale-105 transition-all duration-300 mx-auto md:mx-0 object-contain animate-slide-in-left cursor-pointer"
                  loading="lazy"
