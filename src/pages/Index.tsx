@@ -299,7 +299,7 @@ const Index = () => {
           </div>
           <div className="flex justify-center mb-8">
             <img
-              src="/lovable-uploads/ai-logo.png"
+              src="/lovable-uploads/reverse_of_ai_doorlight.png"
               alt="Legalaid logo"
               className="h-32 w-auto border-2 border-primary rounded-lg"
               loading="lazy"
