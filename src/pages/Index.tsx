@@ -285,7 +285,7 @@ const Index = () => {
             </div>
             <a href="https://www.sponsorlicence.online" target="_blank" rel="noreferrer" className="block order-1 md:order-2">
               <img
-                 src="/lovable-uploads/sponsorlicence-online-v2.png"
+                 src="/lovable-uploads/sponsorlicence-hero-v3.png"
                  alt="sponsorlicence.online - AI-powered sponsor licence compliance tool"
                  className="w-full max-w-md md:max-w-none rounded-lg border-2 border-brand-2/20 shadow-soft hover:shadow-glow hover:scale-105 transition-all duration-300 mx-auto md:mx-0 object-contain animate-slide-in-right cursor-pointer"
                  loading="lazy"
