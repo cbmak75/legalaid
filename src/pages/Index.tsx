@@ -35,9 +35,6 @@ const Index = () => {
               <a href="#about">About</a>
             </Button>
             <Button asChild variant="link" className="text-brand-contrast hover:text-brand-contrast">
-              <a href="#uksettlement" className="font-bold">🔥 Urgent</a>
-            </Button>
-            <Button asChild variant="link" className="text-brand-contrast hover:text-brand-contrast">
               <a href="#launch">Launches</a>
             </Button>
             <Button asChild variant="link" className="text-brand-contrast hover:text-brand-contrast">
