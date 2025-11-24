@@ -59,7 +59,7 @@ All colors MUST be HSL.
     --bar: 0 0% 32%; /* #525252 */
 
     /* Section-specific backgrounds */
-    --section-uksettlement: 43 70% 52%; /* #D4AF37 - urgent gold */
+    --section-uksettlement: 48 75% 56%; /* #e3c239 - urgent gold */
     --section-uksettlement-dark: 0 0% 23%; /* #3A3A3A - charcoal */
     --section-ukinnovator: 287 71% 66%; /* #cb6ce6 */
     --section-sponsorlicence: 23 100% 65%; /* #ff914d */

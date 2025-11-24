@@ -102,13 +102,13 @@ const Index = () => {
         </section>
       </main>
 
-      <section id="uksettlement" className="bg-section-uksettlement-dark py-20 border-y-4 border-section-uksettlement relative overflow-hidden text-white">
-        <div className="absolute top-0 left-0 right-0 bg-section-uksettlement text-section-uksettlement-dark text-center py-2 px-4 font-bold text-sm md:text-base animate-pulse">
+      <section id="uksettlement" className="bg-section-uksettlement py-20 border-y-4 border-section-uksettlement-dark relative overflow-hidden text-section-uksettlement-dark">
+        <div className="absolute top-0 left-0 right-0 bg-section-uksettlement-dark text-section-uksettlement text-center py-2 px-4 font-bold text-sm md:text-base animate-pulse">
           ⚠️ URGENT: Consultation period still open - Act now before it closes!
         </div>
         <div className="container pt-12">
           <div className="mb-4">
-            <Button asChild variant="outline" size="sm" className="bg-section-uksettlement/10 border-section-uksettlement/30 text-section-uksettlement hover:bg-section-uksettlement/20">
+            <Button asChild variant="outline" size="sm" className="bg-section-uksettlement-dark/10 border-section-uksettlement-dark/30 text-section-uksettlement-dark hover:bg-section-uksettlement-dark/20">
               <a href="#hero" className="flex items-center gap-2">
                 <ArrowUp className="h-4 w-4" />
                 Back to top
@@ -119,15 +119,15 @@ const Index = () => {
             <img
               src="/lovable-uploads/uksettlement-logo.png"
               alt="uksettlement.com logo"
-              className="h-32 w-auto border-2 border-section-uksettlement rounded-lg"
+              className="h-32 w-auto border-2 border-section-uksettlement-dark rounded-lg"
               loading="lazy"
             />
           </div>
           <article className="max-w-3xl mx-auto text-center md:text-left animate-fade-in">
-            <h2 className="text-3xl md:text-4xl font-bold text-section-uksettlement">
+            <h2 className="text-3xl md:text-4xl font-bold text-section-uksettlement-dark">
               🔥 Urgent Launch: uksettlement.com
             </h2>
-            <p className="mt-4 text-white/90">
+            <p className="mt-4 text-section-uksettlement-dark/90">
               The UK government is proposing major changes to settlement rules that could affect thousands of migrants. The consultation period is still open - but time is running out. This free AI-powered tool helps you understand the consultation and craft a meaningful response before it's too late.
             </p>
           </article>
@@ -136,33 +136,33 @@ const Index = () => {
               <img
                  src="/lovable-uploads/uksettlement-hero.png"
                  alt="uksettlement.com - UK Settlement consultation tool"
-                 className="w-full max-w-md md:max-w-none rounded-lg border-2 border-section-uksettlement/20 shadow-soft hover:shadow-glow hover:scale-105 transition-all duration-300 mx-auto md:mx-0 object-contain animate-slide-in-left cursor-pointer"
+                 className="w-full max-w-md md:max-w-none rounded-lg border-2 border-section-uksettlement-dark/20 shadow-soft hover:shadow-glow hover:scale-105 transition-all duration-300 mx-auto md:mx-0 object-contain animate-slide-in-left cursor-pointer"
                  loading="lazy"
                  sizes="(min-width: 768px) 640px, 320px"
                />
             </a>
             <div className="text-center md:text-left animate-slide-in-right">
-              <div className="space-y-4 text-base text-white/90">
-                <p className="p-4 bg-section-uksettlement/20 rounded-lg border border-section-uksettlement/30">
+              <div className="space-y-4 text-base text-section-uksettlement-dark/90">
+                <p className="p-4 bg-section-uksettlement-dark/10 rounded-lg border border-section-uksettlement-dark/30">
                   Your voice matters in shaping immigration policy. This tool makes it easy to submit a professional, well-structured response even if you've never participated in a government consultation before.
                 </p>
                 <div className="space-y-3">
-                  <div className="p-3 rounded-lg border-l-4 border-section-uksettlement/50 bg-white/10 hover:bg-white/15 transition-colors">
-                    <strong className="text-section-uksettlement">Answer questions</strong> about your situation and concerns
+                  <div className="p-3 rounded-lg border-l-4 border-section-uksettlement-dark/50 bg-section-uksettlement-dark/5 hover:bg-section-uksettlement-dark/10 transition-colors">
+                    <strong className="text-section-uksettlement-dark">Answer questions</strong> about your situation and concerns
                   </div>
-                  <div className="p-3 rounded-lg border-l-4 border-section-uksettlement/50 bg-white/10 hover:bg-white/15 transition-colors">
-                    <strong className="text-section-uksettlement">AI generates</strong> a structured consultation response
+                  <div className="p-3 rounded-lg border-l-4 border-section-uksettlement-dark/50 bg-section-uksettlement-dark/5 hover:bg-section-uksettlement-dark/10 transition-colors">
+                    <strong className="text-section-uksettlement-dark">AI generates</strong> a structured consultation response
                   </div>
-                  <div className="p-3 rounded-lg border-l-4 border-section-uksettlement/50 bg-white/10 hover:bg-white/15 transition-colors">
-                    <strong className="text-section-uksettlement">Submit directly</strong> to the government portal before deadline
+                  <div className="p-3 rounded-lg border-l-4 border-section-uksettlement-dark/50 bg-section-uksettlement-dark/5 hover:bg-section-uksettlement-dark/10 transition-colors">
+                    <strong className="text-section-uksettlement-dark">Submit directly</strong> to the government portal before deadline
                   </div>
                 </div>
-                <p className="italic text-white/80">
+                <p className="italic text-section-uksettlement-dark/80">
                   "Don't let complex legal language stop you from having your say. This tool democratises access to the consultation process."
                 </p>
               </div>
               <div className="mt-8 flex justify-center md:justify-start">
-                <Button asChild size="lg" className="bg-section-uksettlement hover:bg-section-uksettlement/90 text-section-uksettlement-dark font-bold hover:scale-105 transition-transform">
+                <Button asChild size="lg" className="bg-section-uksettlement-dark hover:bg-section-uksettlement-dark/90 text-section-uksettlement font-bold hover:scale-105 transition-transform">
                   <a href="https://www.uksettlement.com" target="_blank" rel="noreferrer">Visit uksettlement.com</a>
                 </Button>
               </div>
