@@ -325,7 +325,7 @@ const Index = () => {
           <div className="mt-10 grid md:grid-cols-2 gap-8 items-center">
             <a href="https://www.ukvisit.online" target="_blank" rel="noreferrer" className="block">
               <img
-                 src="/lovable-uploads/ukvisit-online.png"
+                 src="/lovable-uploads/ukvisit-hero-v3.png"
                  alt="ukvisit.online - UK visit visa documentation preparation tool"
                  className="w-full max-w-md md:max-w-none rounded-lg border-2 border-brand-3/20 shadow-soft hover:shadow-glow hover:scale-105 transition-all duration-300 mx-auto md:mx-0 object-contain animate-slide-in-left cursor-pointer"
                  loading="lazy"
