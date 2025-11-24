@@ -129,11 +129,11 @@ const Index = () => {
             />
           </div>
           <article className="max-w-3xl mx-auto text-center md:text-left animate-fade-in">
-            <h2 className="text-3xl md:text-4xl font-bold text-white">
+            <h2 className="text-3xl md:text-4xl font-bold text-white drop-shadow-lg">
               New launch: uksettlement.com
             </h2>
-            <p className="mt-4 text-white/90">
-              The UK government is proposing major changes to settlement rules that could affect thousands of migrants. The consultation period is still open - but time is running out. This free AI-powered tool helps you understand the consultation and craft a meaningful response before it's too late.
+            <p className="mt-4 text-white/95 drop-shadow-md text-lg">
+              The UK government is proposing major changes to settlement rules. This free AI-powered tool helps you understand the proposed changes, see how they will directly impact your own route to settlement, and have your voice heard in the consultation process.
             </p>
           </article>
           <div className="mt-10 grid md:grid-cols-2 gap-8 items-center">
@@ -147,27 +147,27 @@ const Index = () => {
                />
             </a>
             <div className="text-center md:text-left animate-slide-in-right">
-              <div className="space-y-4 text-base text-white/90">
-                <p className="p-4 bg-white/10 rounded-lg border border-white/20">
-                  Your voice matters in shaping immigration policy. This tool makes it easy to submit a professional, well-structured response even if you've never participated in a government consultation before.
+              <div className="space-y-4 text-base">
+                <p className="p-4 bg-white/10 rounded-lg border border-white/20 text-white/95 drop-shadow-md">
+                  Whether you're on a work visa, family visa, or any other settlement route, this tool provides personalised insights into how the proposed changes could affect your journey to permanent residence in the UK.
                 </p>
                 <div className="space-y-3">
                   <div className="p-3 rounded-lg border-l-4 border-white/30 bg-white/20 hover:bg-white/30 transition-colors">
-                    <strong className="text-white">Answer questions</strong> about your situation and concerns
+                    <strong className="text-white drop-shadow-md">Understand the changes:</strong> <span className="text-white/95 drop-shadow-sm">Clear explanations of proposed settlement rule modifications</span>
                   </div>
                   <div className="p-3 rounded-lg border-l-4 border-white/30 bg-white/20 hover:bg-white/30 transition-colors">
-                    <strong className="text-white">AI generates</strong> a structured consultation response
+                    <strong className="text-white drop-shadow-md">Personal impact analysis:</strong> <span className="text-white/95 drop-shadow-sm">See how changes affect your specific settlement route</span>
                   </div>
                   <div className="p-3 rounded-lg border-l-4 border-white/30 bg-white/20 hover:bg-white/30 transition-colors">
-                    <strong className="text-white">Submit directly</strong> to the government portal before deadline
+                    <strong className="text-white drop-shadow-md">Expert resources:</strong> <span className="text-white/95 drop-shadow-sm">Access major resources and select commentaries on the proposals</span>
+                  </div>
+                  <div className="p-3 rounded-lg border-l-4 border-white/30 bg-white/20 hover:bg-white/30 transition-colors">
+                    <strong className="text-white drop-shadow-md">Submit your voice:</strong> <span className="text-white/95 drop-shadow-sm">Participate in the consultation process if you wish</span>
                   </div>
                 </div>
-                <p className="italic text-white/80">
-                  "Don't let complex legal language stop you from having your say. This tool democratises access to the consultation process."
-                </p>
               </div>
               <div className="mt-8 flex justify-center md:justify-start">
-                <Button asChild size="lg" variant="hero" className="hover:scale-105 transition-transform">
+                <Button asChild size="lg" variant="hero" className="hover:scale-105 transition-transform shadow-lg">
                   <a href="https://www.uksettlement.com" target="_blank" rel="noreferrer">Visit uksettlement.com</a>
                 </Button>
               </div>
