@@ -38,6 +38,9 @@ const Index = () => {
               <a href="#launch">Launches</a>
             </Button>
             <Button asChild variant="link" className="text-brand-contrast hover:text-brand-contrast">
+              <a href="/article/why-i-built-my-own-ai-company">Article</a>
+            </Button>
+            <Button asChild variant="link" className="text-brand-contrast hover:text-brand-contrast">
               <a href="#about">Contact</a>
             </Button>
           </div>
@@ -445,6 +448,16 @@ const Index = () => {
                   Lawyery profile
                 </a>
               </div>
+            </div>
+            <div className="p-6 rounded-lg border-2 border-primary/10 bg-gradient-accent shadow-soft hover:shadow-glow transition-all">
+              <h4 className="font-semibold">Featured Article</h4>
+              <p className="text-muted-foreground mt-2">Why I Built My Own AI Company</p>
+              <a 
+                href="/article/why-i-built-my-own-ai-company" 
+                className="inline-flex items-center gap-2 text-primary hover:underline mt-2"
+              >
+                Read the full article →
+              </a>
             </div>
           </aside>
           </div>
