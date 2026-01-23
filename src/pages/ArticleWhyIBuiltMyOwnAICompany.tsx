@@ -1,16 +1,56 @@
 import { useEffect } from "react";
+import { Helmet } from "react-helmet-async";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft } from "lucide-react";
 import { Link } from "react-router-dom";
 
+const ARTICLE_URL = "https://ai-law-ally.lovable.app/article/why-i-built-my-own-ai-company";
+const OG_IMAGE_URL = "https://ai-law-ally.lovable.app/og-article-why-i-built-ai-company.jpg";
+
 const ArticleWhyIBuiltMyOwnAICompany = () => {
   useEffect(() => {
-    document.title = "Why I Built My Own AI Company | Legalaid";
     window.scrollTo(0, 0);
   }, []);
 
+  const articleTitle = "Why I Built My Own AI Company (And Why Every Solicitor Should Consider Doing The Same)";
+  const articleDescription = "A solicitor's perspective on building AI tools for legal practitioners. Chris Dias explains why the grassroots approach to legal AI matters more than ever, and how practitioners can take control of their own destiny.";
+  const authorName = "Chris Dias";
+  const publishDate = "2025-01-23";
+
   return (
     <div className="min-h-screen flex flex-col bg-background">
+      <Helmet>
+        {/* Primary Meta Tags */}
+        <title>{articleTitle} | Legalaid</title>
+        <meta name="title" content={`${articleTitle} | Legalaid`} />
+        <meta name="description" content={articleDescription} />
+        <meta name="author" content={authorName} />
+        <link rel="canonical" href={ARTICLE_URL} />
+        
+        {/* Open Graph / Facebook */}
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content={ARTICLE_URL} />
+        <meta property="og:title" content={articleTitle} />
+        <meta property="og:description" content={articleDescription} />
+        <meta property="og:image" content={OG_IMAGE_URL} />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:site_name" content="Legalaid" />
+        <meta property="article:published_time" content={publishDate} />
+        <meta property="article:author" content={authorName} />
+        
+        {/* Twitter */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:url" content={ARTICLE_URL} />
+        <meta name="twitter:title" content={articleTitle} />
+        <meta name="twitter:description" content={articleDescription} />
+        <meta name="twitter:image" content={OG_IMAGE_URL} />
+        
+        {/* Additional SEO */}
+        <meta name="robots" content="index, follow" />
+        <meta name="keywords" content="legal AI, artificial intelligence, immigration law, legal tech, solicitor, Legalaid, Chris Dias, legal innovation, grassroots legal tech" />
+      </Helmet>
+
       <header className="sticky top-0 z-50 w-full bg-bar text-primary-foreground">
         <nav className="container flex items-center justify-between py-6 text-brand-contrast">
           <Link to="/" className="flex items-center gap-3" aria-label="Legalaid home">
@@ -48,9 +88,19 @@ const ArticleWhyIBuiltMyOwnAICompany = () => {
 
           <header className="mb-10">
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight text-foreground">
-              Why I Built My Own AI Company (And Why Every Solicitor Should Consider Doing The Same)
+              {articleTitle}
             </h1>
-            <p className="mt-4 text-muted-foreground">By Chris Dias, Solicitor</p>
+            <div className="mt-4 flex items-center gap-4 text-muted-foreground">
+              <span>By {authorName}, Solicitor</span>
+              <span>•</span>
+              <time dateTime={publishDate}>
+                {new Date(publishDate).toLocaleDateString('en-GB', { 
+                  year: 'numeric', 
+                  month: 'long', 
+                  day: 'numeric' 
+                })}
+              </time>
+            </div>
           </header>
 
           <div className="prose prose-lg max-w-none text-foreground">
@@ -168,7 +218,49 @@ const ArticleWhyIBuiltMyOwnAICompany = () => {
             </p>
           </div>
 
-          <footer className="mt-16 pt-8 border-t border-border">
+          {/* Share buttons */}
+          <div className="mt-12 pt-8 border-t border-border">
+            <h3 className="text-lg font-semibold mb-4 text-foreground">Share this article</h3>
+            <div className="flex gap-3">
+              <a
+                href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(ARTICLE_URL)}`}
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex items-center gap-2 px-4 py-2 bg-[#0077B5] text-white rounded-lg hover:bg-[#006699] transition-colors"
+              >
+                <svg className="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.036-1.851-3.036-1.853 0-2.136 1.447-2.136 2.943v5.662H9.353V9h3.414v1.561h.049c.476-.9 1.637-1.851 3.37-1.851 3.604 0 4.268 2.372 4.268 5.455v6.287zM5.337 7.433a2.062 2.062 0 1 1 0-4.124 2.062 2.062 0 0 1 0 4.124zM7.114 20.452H3.56V9h3.554v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.226.792 24 1.771 24h20.451C23.2 24 24 23.226 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                </svg>
+                LinkedIn
+              </a>
+              <a
+                href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(ARTICLE_URL)}&text=${encodeURIComponent(articleTitle)}`}
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex items-center gap-2 px-4 py-2 bg-foreground text-background rounded-lg hover:opacity-80 transition-opacity"
+              >
+                <svg className="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                </svg>
+                X / Twitter
+              </a>
+              <button
+                onClick={() => {
+                  navigator.clipboard.writeText(ARTICLE_URL);
+                  alert('Link copied to clipboard!');
+                }}
+                className="inline-flex items-center gap-2 px-4 py-2 border border-border rounded-lg hover:bg-muted transition-colors text-foreground"
+              >
+                <svg className="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                  <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                </svg>
+                Copy link
+              </button>
+            </div>
+          </div>
+
+          <footer className="mt-12 pt-8 border-t border-border">
             <div className="flex items-center gap-4">
               <img
                 src="/lovable-uploads/chris-portrait-new.png"
@@ -176,7 +268,7 @@ const ArticleWhyIBuiltMyOwnAICompany = () => {
                 className="w-16 h-16 rounded-full object-cover border-2 border-primary/20"
               />
               <div>
-                <p className="font-semibold text-foreground">Chris Dias</p>
+                <p className="font-semibold text-foreground">{authorName}</p>
                 <p className="text-sm text-muted-foreground">Solicitor & Founder of Legalaid</p>
                 <a
                   href="mailto:chris.dias@lawyery.co"
@@ -218,19 +310,30 @@ const ArticleWhyIBuiltMyOwnAICompany = () => {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            headline: "Why I Built My Own AI Company (And Why Every Solicitor Should Consider Doing The Same)",
+            headline: articleTitle,
+            description: articleDescription,
+            image: OG_IMAGE_URL,
+            datePublished: publishDate,
+            dateModified: publishDate,
             author: {
               "@type": "Person",
-              name: "Chris Dias",
+              name: authorName,
               jobTitle: "Solicitor",
               url: "https://www.lawyery.co/chris-dias"
             },
             publisher: {
               "@type": "Organization",
               name: "Legal Artificial Intelligence Development (Legalaid) Ltd",
-              url: "https://legalaid.dev"
+              url: "https://legalaid.dev",
+              logo: {
+                "@type": "ImageObject",
+                url: "https://ai-law-ally.lovable.app/lovable-uploads/legalaid-logo.png"
+              }
             },
-            description: "A solicitor's perspective on building AI tools for legal practitioners, and why the grassroots approach matters more than ever."
+            mainEntityOfPage: {
+              "@type": "WebPage",
+              "@id": ARTICLE_URL
+            }
           }),
         }}
       />
