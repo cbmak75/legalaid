@@ -131,7 +131,7 @@ const ArticleWhyIBuiltMyOwnAICompany = () => {
             </h2>
 
             <p className="text-base leading-relaxed">
-              I firmly believe that AI's potential to drive meaningful change in the legal sector should be a grassroots movement, led by practitioners rather than corporate giants. The solicitor who has spent fifteen years navigating the hostile environment knows more about what tools would actually help than any product manager in a tech company boardroom. The immigration adviser who has watched the Rules change four times in a single year understands the pain points that no focus group will ever capture.
+              I firmly believe that AI's potential to drive meaningful change in the legal sector should be a grassroots movement, led by practitioners rather than corporate giants. The solicitor who has spent over ten years navigating the hostile environment knows more about what tools would actually help than any product manager in a tech company boardroom. The immigration adviser who has watched the Rules change four times in a single year understands the pain points that no focus group will ever capture.
             </p>
 
             <p className="text-base leading-relaxed">So instead of waiting for someone else to build what I needed, I started building it myself.</p>
