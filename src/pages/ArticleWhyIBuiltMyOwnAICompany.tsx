@@ -4,8 +4,8 @@ import { Button } from "@/components/ui/button";
 import { ArrowLeft } from "lucide-react";
 import { Link } from "react-router-dom";
 
-const ARTICLE_URL = "https://ai-law-ally.lovable.app/article/why-i-built-my-own-ai-company";
-const OG_IMAGE_URL = "https://ai-law-ally.lovable.app/og-article-why-i-built-ai-company.jpg";
+const ARTICLE_URL = "https://legalaid.dev/article/why-i-built-my-own-ai-company";
+const OG_IMAGE_URL = "https://legalaid.dev/og-article-why-i-built-ai-company.png";
 
 const ArticleWhyIBuiltMyOwnAICompany = () => {
   useEffect(() => {
