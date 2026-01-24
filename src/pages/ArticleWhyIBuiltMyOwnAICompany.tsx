@@ -124,7 +124,7 @@ const ArticleWhyIBuiltMyOwnAICompany = () => {
               When ChatGPT arrived, the pattern repeated. Suddenly every legal tech vendor bolted AI onto their existing products and charged premium prices for the privilege. Law firms were told they needed enterprise solutions, comprehensive platforms, and transformation consultants. The message was clear: AI is too complicated for you to handle alone.
             </p>
 
-            <p className="text-base leading-relaxed font-semibold">I call nonsense on that.</p>
+            <p className="text-base leading-relaxed font-semibold">I am here to prove that this is not true.</p>
 
             <h2 className="text-2xl md:text-3xl font-bold mt-10 mb-4 text-foreground">
               A Grassroots Movement, Not a Corporate Takeover
