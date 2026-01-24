@@ -104,7 +104,7 @@ const ArticleWhyIBuiltMyOwnAICompany = () => {
           </header>
 
           <div className="max-w-none text-foreground space-y-6">
-            <p className="text-lg leading-relaxed text-muted-foreground">
+            <p className="text-lg leading-relaxed">
               I never set out to become a tech entrepreneur.
             </p>
 
