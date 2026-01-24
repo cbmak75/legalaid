@@ -105,7 +105,11 @@ const ArticleWhyIBuiltMyOwnAICompany = () => {
 
           <div className="max-w-none text-foreground space-y-6">
             <p className="text-lg leading-relaxed text-muted-foreground">
-              I never set out to become a tech entrepreneur. For over two decades I have practised immigration law, watching governments tighten the screws on migrants whilst simultaneously making the rules so labyrinthine that even fellow lawyers struggle to keep pace. When generative AI burst onto the scene, I saw something that the big legal tech companies apparently missed: an opportunity for practitioners to take control of their own destiny.
+              I never set out to become a tech entrepreneur.
+            </p>
+
+            <p className="text-base leading-relaxed">
+              For over two decades I have practised immigration law, watching governments tighten the screws on migrants whilst simultaneously making the rules so labyrinthine that even fellow lawyers struggle to keep pace. When generative AI burst onto the scene, I saw something that the big legal tech companies apparently missed: an opportunity for practitioners to take control of their own destiny.
             </p>
 
             <p className="text-base leading-relaxed">
