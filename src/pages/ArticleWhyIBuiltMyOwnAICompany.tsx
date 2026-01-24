@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet-async";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft } from "lucide-react";
 import { Link } from "react-router-dom";
-
+import whyIBuiltHero from "@/assets/why-i-built-hero.png";
 const ARTICLE_URL = "https://legalaid.dev/article/why-i-built-my-own-ai-company";
 const OG_IMAGE_URL = "https://legalaid.dev/og-article-why-i-built-ai-company.png";
 
@@ -87,6 +87,11 @@ const ArticleWhyIBuiltMyOwnAICompany = () => {
           </div>
 
           <header className="mb-10">
+            <img 
+              src={whyIBuiltHero} 
+              alt="Why I Built My Own AI Company - by Chris Dias" 
+              className="w-full rounded-lg mb-8"
+            />
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight text-foreground">
               {articleTitle}
             </h1>
