@@ -209,7 +209,7 @@ const ArticleWhyIBuiltMyOwnAICompany = () => {
             </p>
 
             <p className="text-base leading-relaxed">
-              I qualified in 2001. I have worked for firms including Horsfield Menzies, Dias Solicitors, ALT Legal, Gunnercooke and Halebury. I now run Lawyery from our offices in Holborn, and I teach Advanced Immigration Law for Free Movement. None of that experience told me I would end up founding a tech company. But all of it told me what that company needed to build.
+              I qualified in 2001. I have worked for firms including Horsfield Menzies, Dias Solicitors, ALT Legal, Gunnercooke and Halebury. I now run Lawyery from our offices in Holborn, and I teach Advanced Immigration Law for Free Movement. None of that experience told me I would end up founding a tech company. But all of that knowledge and experience led me to build exactly what my firm needed.
             </p>
 
             <p className="text-base leading-relaxed font-semibold">
