@@ -58,8 +58,8 @@ function buildStaticHeadHtml(baseHtml: string, page: StaticHeadPage) {
 
   // Remove existing OG/Twitter tags (these are static in index.html and do not change per route)
   html = html
-    .replace(/<meta\s+property="og:[^"]+"\s+content="[^"]*"\s*\/?>/gi, "")
-    .replace(/<meta\s+name="twitter:[^"]+"\s+content="[^"]*"\s*\/?>/gi, "");
+    .replace(/<meta\s+property="og:[^"]+"[^>]*>/gi, "")
+    .replace(/<meta\s+name="twitter:[^"]+"[^>]*>/gi, "");
 
   // Insert correct per-route OG/Twitter tags
   const ogBlock = `
