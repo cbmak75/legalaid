@@ -57,9 +57,17 @@ function buildStaticHeadHtml(baseHtml: string, page: StaticHeadPage) {
   );
 
   // Remove existing OG/Twitter tags (these are static in index.html and do not change per route)
-  html = html
-    .replace(/<meta\s+property="og:[^"]+"[^>]*>/gi, "")
-    .replace(/<meta\s+name="twitter:[^"]+"[^>]*>/gi, "");
+  // Use very broad regex to ensure ALL og: and twitter: tags are removed
+  // Split by lines, filter out OG/Twitter lines, rejoin
+  const lines = html.split('\n');
+  const filteredLines = lines.filter(line => {
+    const lowerLine = line.toLowerCase();
+    return !(
+      (lowerLine.includes('property="og:') || lowerLine.includes("property='og:")) ||
+      (lowerLine.includes('name="twitter:') || lowerLine.includes("name='twitter:"))
+    );
+  });
+  html = filteredLines.join('\n');
 
   // Insert correct per-route OG/Twitter tags
   const ogBlock = `
