@@ -1,0 +1,5 @@
+# Serve pre-rendered static HTML files for specific routes (for OG tags/SEO)
+/article/why-i-built-my-own-ai-company    /article/why-i-built-my-own-ai-company/index.html    200
+
+# SPA fallback - all other routes go to index.html
+/*    /index.html    200
