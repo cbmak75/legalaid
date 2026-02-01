@@ -64,6 +64,7 @@ All colors MUST be HSL.
     --section-ukinnovator: 287 71% 66%; /* #cb6ce6 */
     --section-sponsorlicence: 23 100% 65%; /* #ff914d */
     --section-ukvisit: 323 100% 70%; /* #ff66c4 */
+    --section-manda: 207 90% 54%; /* #2196f3 - M&A blue */
 
     /* Gradients, shadows, motion */
     --gradient-hero: hsl(0 0% 32%);
@@ -147,6 +148,7 @@ All colors MUST be HSL.
   .bg-section-ukinnovator { background-color: hsl(var(--section-ukinnovator)); }
   .bg-section-sponsorlicence { background-color: hsl(var(--section-sponsorlicence)); }
   .bg-section-ukvisit { background-color: hsl(var(--section-ukvisit)); }
+  .bg-section-manda { background-color: hsl(var(--section-manda)); }
   .bg-gradient-accent { background: var(--gradient-accent); }
   .shadow-glow { box-shadow: var(--shadow-glow); }
   .shadow-soft { box-shadow: var(--shadow-soft); }

@@ -92,6 +92,14 @@ const Index = () => {
                       loading="lazy"
                     />
                   </a>
+                  <a href="#manda" className="block">
+                    <img
+                      src="/lovable-uploads/manda-logo.png"
+                      alt="manda.work logo"
+                      className="h-20 md:h-28 w-auto border-2 border-white rounded-lg hover:scale-105 hover:opacity-70 transition-all cursor-pointer animate-jiggle"
+                      loading="lazy"
+                    />
+                  </a>
                 </div>
               </div>
             </div>
@@ -357,6 +365,71 @@ const Index = () => {
               <div className="mt-8 flex justify-center md:justify-start">
                 <Button asChild size="lg" variant="hero" className="hover:scale-105 transition-transform">
                   <a href="https://www.ukvisit.online" target="_blank" rel="noreferrer">Visit ukvisit.online</a>
+                </Button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="manda" className="bg-section-manda py-20 border-y border-border/50 text-white">
+        <div className="container">
+          <div className="mb-4">
+            <Button asChild variant="outline" size="sm" className="bg-white/10 border-white/20 text-white hover:bg-white/20">
+              <a href="#hero" className="flex items-center gap-2">
+                <ArrowUp className="h-4 w-4" />
+                Back to top
+              </a>
+            </Button>
+          </div>
+          <div className="flex justify-center mb-8">
+            <img
+              src="/lovable-uploads/manda-logo.png"
+              alt="manda.work logo"
+              className="h-32 w-auto border-2 border-white rounded-lg bg-white/90 p-2"
+              loading="lazy"
+            />
+          </div>
+          <article className="max-w-3xl mx-auto text-center md:text-left animate-fade-in">
+            <h2 className="text-3xl md:text-4xl font-bold text-white">
+              Latest release: manda.work
+            </h2>
+            <p className="mt-4 text-white/90">
+              The M&A Immigration Checker is a beta tool designed to help assess immigration risks in UK mergers and acquisitions transactions. Enter your deal parameters and workforce data to receive a comprehensive risk assessment.
+            </p>
+          </article>
+          <div className="mt-10 grid md:grid-cols-2 gap-8 items-center">
+            <a href="https://www.manda.work" target="_blank" rel="noreferrer" className="block">
+              <img
+                src="/lovable-uploads/manda-hero.jpg"
+                alt="manda.work - M&A Immigration Checker showing business professionals collaborating"
+                className="w-full max-w-md md:max-w-none rounded-lg border-2 border-white/20 shadow-soft hover:shadow-glow hover:scale-105 transition-all duration-300 mx-auto md:mx-0 object-contain animate-slide-in-left cursor-pointer"
+                loading="lazy"
+                sizes="(min-width: 768px) 640px, 320px"
+              />
+            </a>
+            <div className="text-center md:text-left animate-slide-in-right">
+              <h3 className="text-2xl font-semibold mb-4 text-white">What the M&A Immigration Checker offers:</h3>
+              <div className="space-y-3 text-base text-white/90">
+                <div className="p-3 rounded-lg border-l-4 border-white/30 bg-white/20 hover:bg-white/30 transition-colors">
+                  <strong className="text-white">Risk scoping:</strong> Preliminary immigration risk assessment for M&A transactions
+                </div>
+                <div className="p-3 rounded-lg border-l-4 border-white/30 bg-white/20 hover:bg-white/30 transition-colors">
+                  <strong className="text-white">Deal analysis:</strong> Enter deal parameters for tailored workforce immigration insights
+                </div>
+                <div className="p-3 rounded-lg border-l-4 border-white/30 bg-white/20 hover:bg-white/30 transition-colors">
+                  <strong className="text-white">Workforce review:</strong> Assess immigration implications for existing sponsored workers
+                </div>
+                <div className="p-3 rounded-lg border-l-4 border-white/30 bg-white/20 hover:bg-white/30 transition-colors">
+                  <strong className="text-white">Professional use:</strong> Designed for lawyers and corporate advisors handling M&A deals
+                </div>
+              </div>
+              <p className="mt-6 p-4 bg-white/20 rounded-lg border border-white/20 text-white/90">
+                This tool provides preliminary risk scoping and does not constitute formal legal advice. Always consult qualified immigration lawyers before making decisions based on this assessment.
+              </p>
+              <div className="mt-8 flex justify-center md:justify-start">
+                <Button asChild size="lg" variant="hero" className="hover:scale-105 transition-transform">
+                  <a href="https://www.manda.work" target="_blank" rel="noreferrer">Visit manda.work</a>
                 </Button>
               </div>
             </div>
