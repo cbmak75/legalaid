@@ -94,7 +94,7 @@ const Index = () => {
                   </a>
                   <a href="#manda" className="block">
                     <img
-                      src="/lovable-uploads/manda-logo.png"
+                      src="/lovable-uploads/manda-logo-v2.png"
                       alt="manda.work logo"
                       className="h-16 md:h-20 w-auto border-2 border-white rounded-lg hover:scale-105 hover:opacity-70 transition-all cursor-pointer animate-jiggle mx-auto"
                       loading="lazy"
@@ -384,7 +384,7 @@ const Index = () => {
           </div>
           <div className="flex justify-center mb-8">
             <img
-              src="/lovable-uploads/manda-logo.png"
+              src="/lovable-uploads/manda-logo-v2.png"
               alt="manda.work logo"
               className="h-32 w-auto border-2 border-white rounded-lg"
               loading="lazy"
