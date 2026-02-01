@@ -59,12 +59,12 @@ const Index = () => {
               </p>
               <div className="mt-8">
                 <p className="text-lg text-white font-semibold mb-4">Find out more about our AI tools:</p>
-                <div className="flex flex-wrap gap-4 items-center justify-center md:justify-start">
+                <div className="grid grid-cols-3 sm:grid-cols-5 gap-3 md:gap-4 max-w-2xl mx-auto md:mx-0">
                   <a href="#uksettlement" className="block">
                     <img
                       src="/lovable-uploads/uksettlement-logo.png"
                       alt="uksettlement.com logo"
-                      className="h-20 md:h-28 w-auto border-2 border-white rounded-lg hover:scale-105 hover:opacity-70 transition-all cursor-pointer animate-jiggle"
+                      className="h-16 md:h-20 w-auto border-2 border-white rounded-lg hover:scale-105 hover:opacity-70 transition-all cursor-pointer animate-jiggle mx-auto"
                       loading="lazy"
                     />
                   </a>
@@ -72,7 +72,7 @@ const Index = () => {
                     <img
                       src="/lovable-uploads/io-logo.png"
                       alt="ukinnovator.online logo"
-                      className="h-20 md:h-28 w-auto border-2 border-white rounded-lg hover:scale-105 hover:opacity-70 transition-all cursor-pointer animate-jiggle"
+                      className="h-16 md:h-20 w-auto border-2 border-white rounded-lg hover:scale-105 hover:opacity-70 transition-all cursor-pointer animate-jiggle mx-auto"
                       loading="lazy"
                     />
                   </a>
@@ -80,7 +80,7 @@ const Index = () => {
                     <img
                       src="/lovable-uploads/so-logo.png"
                       alt="sponsorlicence.online logo"
-                      className="h-20 md:h-28 w-auto border-2 border-white rounded-lg hover:scale-105 hover:opacity-70 transition-all cursor-pointer animate-jiggle"
+                      className="h-16 md:h-20 w-auto border-2 border-white rounded-lg hover:scale-105 hover:opacity-70 transition-all cursor-pointer animate-jiggle mx-auto"
                       loading="lazy"
                     />
                   </a>
@@ -88,7 +88,7 @@ const Index = () => {
                     <img
                       src="/lovable-uploads/uk-logo-new.png"
                       alt="ukvisit.online logo"
-                      className="h-20 md:h-28 w-auto border-2 border-white rounded-lg hover:scale-105 hover:opacity-70 transition-all cursor-pointer animate-jiggle"
+                      className="h-16 md:h-20 w-auto border-2 border-white rounded-lg hover:scale-105 hover:opacity-70 transition-all cursor-pointer animate-jiggle mx-auto"
                       loading="lazy"
                     />
                   </a>
@@ -96,7 +96,7 @@ const Index = () => {
                     <img
                       src="/lovable-uploads/manda-logo.png"
                       alt="manda.work logo"
-                      className="h-20 md:h-28 w-auto border-2 border-white rounded-lg hover:scale-105 hover:opacity-70 transition-all cursor-pointer animate-jiggle"
+                      className="h-16 md:h-20 w-auto border-2 border-white rounded-lg hover:scale-105 hover:opacity-70 transition-all cursor-pointer animate-jiggle mx-auto"
                       loading="lazy"
                     />
                   </a>
@@ -386,7 +386,7 @@ const Index = () => {
             <img
               src="/lovable-uploads/manda-logo.png"
               alt="manda.work logo"
-              className="h-32 w-auto border-2 border-white rounded-lg bg-white/90 p-2"
+              className="h-32 w-auto border-2 border-white rounded-lg"
               loading="lazy"
             />
           </div>
