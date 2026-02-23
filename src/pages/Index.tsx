@@ -118,6 +118,45 @@ const Index = () => {
         </section>
       </main>
 
+      <section id="countersigned" className="bg-section-countersigned py-20 text-white">
+        <div className="container">
+          <div className="mb-4">
+            <Button asChild variant="outline" size="sm" className="bg-white/10 border-white/20 text-white hover:bg-white/20">
+              <a href="#hero" className="flex items-center gap-2">
+                <ArrowUp className="h-4 w-4" />
+                Back to top
+              </a>
+            </Button>
+          </div>
+          <article className="max-w-3xl mx-auto text-center animate-fade-in">
+            <span className="inline-block mb-4 px-4 py-1 rounded-full bg-white/20 text-sm font-semibold tracking-wider uppercase border border-white/30">
+              Coming Soon
+            </span>
+            <h2 className="text-3xl md:text-4xl font-bold text-white">
+              countersigned.ai
+            </h2>
+            <p className="mt-4 text-white/95 text-lg">
+              Compliance infrastructure for AI-assisted legal practice.
+            </p>
+          </article>
+          <div className="mt-10 max-w-3xl mx-auto">
+            <div className="p-6 bg-black/30 rounded-lg border border-white/20 backdrop-blur-sm space-y-4 text-white/95 text-base">
+              <p>
+                Not another AI tool. Not another document automation platform. The regulated framework that sits between the AI and the client, ensuring every piece of AI-generated legal work is properly supervised, documented, and defensible before it leaves the firm.
+              </p>
+              <p className="font-semibold text-white text-lg">
+                The AI does the heavy lifting. The solicitor provides the professional judgment. Countersigned.ai proves it happened.
+              </p>
+            </div>
+            <div className="mt-8 flex justify-center">
+              <Button asChild size="lg" variant="hero" className="hover:scale-105 transition-transform shadow-lg">
+                <a href="https://www.countersigned.ai" target="_blank" rel="noreferrer">Visit countersigned.ai</a>
+              </Button>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section id="uksettlement" className="bg-section-uksettlement py-20 text-white">
         <div className="container">
           <div className="mb-4">
