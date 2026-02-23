@@ -65,7 +65,7 @@ All colors MUST be HSL.
     --section-sponsorlicence: 23 100% 65%; /* #ff914d */
     --section-ukvisit: 323 100% 70%; /* #ff66c4 */
     --section-manda: 207 90% 54%; /* #2196f3 - M&A blue */
-    --section-countersigned: 160 84% 39%; /* teal/green - compliance */
+    --section-countersigned: 145 100% 37%; /* countersigned green */
 
     /* Gradients, shadows, motion */
     --gradient-hero: hsl(0 0% 32%);
