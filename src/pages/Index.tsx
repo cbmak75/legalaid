@@ -138,44 +138,47 @@ const Index = () => {
           </div>
           <div className="flex justify-center mb-8">
             <img
-              src="/lovable-uploads/countersigned-hero.png"
-              alt="countersigned.ai hero"
-              className="w-full max-w-3xl rounded-lg border-2 border-white"
-              loading="lazy"
-            />
-          </div>
-          <div className="flex justify-center mb-8">
-            <img
               src="/lovable-uploads/countersigned-favicon.png"
               alt="countersigned.ai logo"
               className="h-32 w-auto border-2 border-white rounded-lg"
               loading="lazy"
             />
           </div>
-          <article className="max-w-3xl mx-auto text-center animate-fade-in">
+          <article className="max-w-3xl mx-auto text-center md:text-left animate-fade-in">
             <span className="inline-block mb-4 px-4 py-1 rounded-full bg-white/20 text-sm font-semibold tracking-wider uppercase border border-white/30">
               Coming Soon
             </span>
             <h2 className="text-3xl md:text-4xl font-bold text-white">
               countersigned.ai
             </h2>
-            <p className="mt-4 text-white/95 text-lg">
+            <p className="mt-4 text-white/90">
               Compliance infrastructure for AI-assisted legal practice.
             </p>
           </article>
-          <div className="mt-10 max-w-3xl mx-auto">
-            <div className="p-6 bg-black/30 rounded-lg border border-white/20 backdrop-blur-sm space-y-4 text-white/95 text-base">
-              <p>
-                Not another AI tool. Not another document automation platform. The regulated framework that sits between the AI and the client, ensuring every piece of AI-generated legal work is properly supervised, documented, and defensible before it leaves the firm.
-              </p>
-              <p className="font-semibold text-white text-lg">
-                The AI does the heavy lifting. The solicitor provides the professional judgment. Countersigned.ai proves it happened.
-              </p>
-            </div>
-            <div className="mt-8 flex justify-center">
-              <Button asChild size="lg" variant="hero" className="hover:scale-105 transition-transform shadow-lg">
-                <a href="https://www.countersigned.ai" target="_blank" rel="noreferrer">Visit countersigned.ai</a>
-              </Button>
+          <div className="mt-10 grid md:grid-cols-2 gap-8 items-center">
+            <a href="https://www.countersigned.ai" target="_blank" rel="noreferrer" className="block">
+              <img
+                src="/lovable-uploads/countersigned-hero.png"
+                alt="countersigned.ai - Compliance infrastructure for AI-assisted legal practice"
+                className="w-full max-w-md md:max-w-none rounded-lg border-2 border-white/20 shadow-soft hover:shadow-glow hover:scale-105 transition-all duration-300 mx-auto md:mx-0 object-contain animate-slide-in-left cursor-pointer"
+                loading="lazy"
+                sizes="(min-width: 768px) 640px, 320px"
+              />
+            </a>
+            <div className="text-center md:text-left animate-slide-in-right">
+              <div className="space-y-4 text-base text-white/90">
+                <p className="p-4 bg-white/10 rounded-lg border border-white/20">
+                  Not another AI tool. Not another document automation platform. The regulated framework that sits between the AI and the client, ensuring every piece of AI-generated legal work is properly supervised, documented, and defensible before it leaves the firm.
+                </p>
+                <p className="font-semibold text-white text-lg">
+                  The AI does the heavy lifting. The solicitor provides the professional judgment. Countersigned.ai proves it happened.
+                </p>
+              </div>
+              <div className="mt-8 flex justify-center md:justify-start">
+                <Button asChild size="lg" variant="hero" className="hover:scale-105 transition-transform shadow-lg">
+                  <a href="https://www.countersigned.ai" target="_blank" rel="noreferrer">Visit countersigned.ai</a>
+                </Button>
+              </div>
             </div>
           </div>
         </div>
