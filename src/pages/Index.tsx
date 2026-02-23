@@ -59,7 +59,15 @@ const Index = () => {
               </p>
               <div className="mt-8">
                 <p className="text-lg text-white font-semibold mb-4">Find out more about our AI tools:</p>
-                <div className="grid grid-cols-3 sm:grid-cols-5 gap-3 md:gap-4 max-w-2xl mx-auto md:mx-0">
+                <div className="grid grid-cols-3 sm:grid-cols-6 gap-3 md:gap-4 max-w-2xl mx-auto md:mx-0">
+                  <a href="#countersigned" className="block">
+                    <img
+                      src="/lovable-uploads/countersigned-favicon.png"
+                      alt="countersigned.ai logo"
+                      className="h-16 md:h-20 w-auto border-2 border-white rounded-lg hover:scale-105 hover:opacity-70 transition-all cursor-pointer animate-jiggle mx-auto"
+                      loading="lazy"
+                    />
+                  </a>
                   <a href="#uksettlement" className="block">
                     <img
                       src="/lovable-uploads/uksettlement-logo.png"
@@ -127,6 +135,14 @@ const Index = () => {
                 Back to top
               </a>
             </Button>
+          </div>
+          <div className="flex justify-center mb-8">
+            <img
+              src="/lovable-uploads/countersigned-logo.png"
+              alt="countersigned.ai logo"
+              className="h-32 w-auto border-2 border-white rounded-lg"
+              loading="lazy"
+            />
           </div>
           <article className="max-w-3xl mx-auto text-center animate-fade-in">
             <span className="inline-block mb-4 px-4 py-1 rounded-full bg-white/20 text-sm font-semibold tracking-wider uppercase border border-white/30">
