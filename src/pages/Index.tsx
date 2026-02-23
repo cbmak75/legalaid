@@ -392,7 +392,7 @@ const Index = () => {
           </div>
           <article className="max-w-3xl mx-auto text-center md:text-left animate-fade-in">
             <h2 className="text-3xl md:text-4xl font-bold text-white">
-              m<span className="text-white/60">&</span>a.work
+              m<span className="text-white/60">and</span>a.work
             </h2>
             <p className="mt-4 text-white/90">
               The M&A Immigration Checker is a beta tool designed to help assess immigration risks in UK mergers and acquisitions transactions. Enter your deal parameters and workforce data to receive a comprehensive risk assessment.
