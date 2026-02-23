@@ -138,7 +138,15 @@ const Index = () => {
           </div>
           <div className="flex justify-center mb-8">
             <img
-              src="/lovable-uploads/countersigned-logo.png"
+              src="/lovable-uploads/countersigned-hero.png"
+              alt="countersigned.ai hero"
+              className="w-full max-w-3xl rounded-lg border-2 border-white"
+              loading="lazy"
+            />
+          </div>
+          <div className="flex justify-center mb-8">
+            <img
+              src="/lovable-uploads/countersigned-favicon.png"
               alt="countersigned.ai logo"
               className="h-32 w-auto border-2 border-white rounded-lg"
               loading="lazy"
