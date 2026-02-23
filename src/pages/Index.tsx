@@ -138,7 +138,7 @@ const Index = () => {
           </div>
           <article className="max-w-3xl mx-auto text-center md:text-left animate-fade-in p-6 bg-black/40 rounded-lg backdrop-blur-sm">
             <h2 className="text-3xl md:text-4xl font-bold text-white drop-shadow-lg">
-              New launch: uksettlement.com
+              uksettlement.com
             </h2>
             <p className="mt-4 text-white/95 drop-shadow-md text-lg">
               The UK government is proposing major changes to settlement rules. This free AI-powered tool helps you understand the proposed changes, see how they will directly impact your own route to settlement, and have your voice heard in the consultation process.
@@ -204,7 +204,7 @@ const Index = () => {
           </div>
           <article className="max-w-3xl mx-auto text-center md:text-left animate-fade-in">
             <h2 className="text-3xl md:text-4xl font-bold text-white">
-              Beta launch: ukinnovator.online
+              ukinnovator.online
             </h2>
             <p className="mt-4 text-white/90">
               Legalaid has launched its inaugural beta of ukinnovator.online — a free, AI-powered pre-assessment tool helping potential Innovator Founders gauge the strength of their business ideas for the UK scheme. It offers a quick 5-minute assessment and a more in-depth 20-minute option.
@@ -259,7 +259,7 @@ const Index = () => {
           </div>
           <article className="max-w-3xl mx-auto text-center md:text-left animate-fade-in">
             <h2 className="text-3xl md:text-4xl font-bold text-white">
-              New launch: sponsorlicence.online
+              sponsorlicence.online
             </h2>
             <p className="mt-4 text-white/90">
               As a UK sponsor licence holder, you have strict legal obligations to maintain compliance with UKVI requirements. Failure to meet these obligations can result in serious consequences including licence suspension or revocation, affecting your ability to hire international talent.
@@ -327,7 +327,7 @@ const Index = () => {
           </div>
           <article className="max-w-3xl mx-auto text-center md:text-left animate-fade-in">
             <h2 className="text-3xl md:text-4xl font-bold text-white">
-              New launch: ukvisit.online
+              ukvisit.online
             </h2>
             <p className="mt-4 text-white/90">
               This tool helps UK visit visa applicants and their UK hosts prepare comprehensive documentation packages. By answering detailed questions about your circumstances, travel plans, and financial situation, you will receive personalised guidance to strengthen your visa application.
@@ -392,7 +392,7 @@ const Index = () => {
           </div>
           <article className="max-w-3xl mx-auto text-center md:text-left animate-fade-in">
             <h2 className="text-3xl md:text-4xl font-bold text-white">
-              Latest release: manda.work
+              manda.work
             </h2>
             <p className="mt-4 text-white/90">
               The M&A Immigration Checker is a beta tool designed to help assess immigration risks in UK mergers and acquisitions transactions. Enter your deal parameters and workforce data to receive a comprehensive risk assessment.
