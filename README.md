@@ -1,73 +1,35 @@
-# Welcome to your Lovable project
+# legalaid.dev
 
-## Project info
+The public website of Legal Artificial Intelligence Development (Legalaid) Ltd. A practitioner-led venture building simple, pragmatic AI tools for legal practitioners.
 
-**URL**: https://lovable.dev/projects/2d2ae103-115e-434e-a6e2-ea4d89b3dbff
+Live site: https://www.legalaid.dev
 
-## How can I edit this code?
+## About Legalaid
 
-There are several ways of editing your application.
+Legalaid Ltd was founded by Chris Dias, solicitor and founding director of Lawyery, to bring grassroots AI tools to the legal profession. The thesis is simple: AI's potential in law is best realised by practitioners building for practitioners, not by corporate platforms built for enterprise procurement.
 
-**Use Lovable**
+The focus so far has been immigration law, reflecting the founder's expertise, but the company is open to consultation and collaboration with other firms and other practice areas.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/2d2ae103-115e-434e-a6e2-ea4d89b3dbff) and start prompting.
+## Products
 
-Changes made via Lovable will be committed automatically to this repo.
+This site is a product index. Each tool lives in its own repo and its own domain:
 
-**Use your preferred IDE**
+- **ukinnovator.online:** Innovator Founder visa pre-assessment
+- **sponsorlicence.online:** sponsor licence compliance action plans
+- **ukvisit.online:** UK visitor visa preparation
+- **uksettlement.com:** UK settlement rule-change impact check
+- **countersigned.ai:** compliance infrastructure for AI-assisted legal practice (coming soon)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Founder
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Chris Dias qualified as a solicitor in 2001 and has worked in immigration law across Horsfield Menzies, Dias Solicitors, ALT Legal, Gunnercooke, Halebury, and now Lawyery Ltd (Holborn). He teaches the Level 2 Advanced Immigration Law course for Free Movement.
 
-Follow these steps:
+## Stack
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- Vite, React, TypeScript
+- Tailwind, shadcn/ui
+- Hosted via Lovable
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## Disclaimer
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/2d2ae103-115e-434e-a6e2-ea4d89b3dbff) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Legalaid Ltd is a technology company. None of its tools constitute regulated legal advice. For regulated advice, users are referred to Lawyery Ltd (SRA 8001894) or another SRA-regulated firm.
