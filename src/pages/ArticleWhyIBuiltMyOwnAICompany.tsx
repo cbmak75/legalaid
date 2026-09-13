@@ -325,12 +325,14 @@ const ArticleWhyIBuiltMyOwnAICompany = () => {
             dateModified: publishDate,
             author: {
               "@type": "Person",
+      "@id": "https://www.lawyery.co/chris-dias#person",
               name: authorName,
               jobTitle: "Solicitor",
               url: "https://www.lawyery.co/chris-dias"
             },
             publisher: {
               "@type": "Organization",
+      "@id": "https://legalaid.dev/#company",
               name: "Legal Artificial Intelligence Development (Legalaid) Ltd",
               url: "https://legalaid.dev",
               logo: {
