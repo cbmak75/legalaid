@@ -631,6 +631,7 @@ const Index = () => {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Organization",
+      "@id": "https://legalaid.dev/#company",
             name: "Legal Artificial Intelligence Development (Legalaid) Ltd",
             url: "https://legalaid.dev",
             logo: "https://legalaid.dev/lovable-uploads/4be43dfe-c9fa-4767-93be-f0925780e6b1.png",
@@ -644,6 +645,7 @@ const Index = () => {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "SoftwareApplication",
+      "@id": "https://legalaid.dev/#product",
             name: "ukinnovator.online",
             applicationCategory: "BusinessApplication",
             operatingSystem: "Web",
